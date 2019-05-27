@@ -29,6 +29,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Sansita, sans-serif;
 }
 
+section {
+    border: 2px solid black;
+}
+
 /* 3. Mobile Rules */
     /* 3a. Franklin, ID Title */
 #page-header {
@@ -40,10 +44,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
     /*3b. Temperature*/
-#franklin-idaho {
-    border-style: solid 1px;
-}
-
 #temp, #high-low, #feels-like {
     text-align: center;
 }
