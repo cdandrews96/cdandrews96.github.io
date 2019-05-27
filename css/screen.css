@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 
     /*3b. Temperature*/
 #franklin-idaho {
-    border: 1px;
+    border-style: solid 1px;
 }
 
 #temp {
