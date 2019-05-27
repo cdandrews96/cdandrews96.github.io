@@ -38,13 +38,18 @@ section {
 }
 
 /* 3. Mobile Rules */
-    /* 3a. Franklin, ID Title */
 #page-header {
     background-color: blue;
 }
 
 #header-title {
     font-size: 2em;
+}
+
+    /*3a. Franklin, Idaho*/
+
+#franklin-idaho {
+    border: none;
 }
 
     /*3b. Temperature*/
