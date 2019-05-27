@@ -1,0 +1,32 @@
+/* Table of Contents
+1. Imports
+2. General Rules
+3. Mobile Rules
+4. Large Screen Rules
+
+*/
+
+/* 1. Imports */
+@import url('https://fonts.googleapis.com/css?family=Sansita&display=swap');
+
+@import url('normalize.css');
+
+
+/* 2. General */
+body {
+    font-size: 20px;
+    font-family: helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Sansita, sans-serif;
+}
+
+/* 3. Mobile Rules */
+#page-header {
+    background-color: blue;
+}
+
+#header-title {
+    font-size: 2em;
+}
