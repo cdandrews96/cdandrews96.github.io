@@ -37,8 +37,8 @@ main {
 section {
     border: 2px solid black;
     border-radius: 10px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 /* 3. Mobile Rules */
