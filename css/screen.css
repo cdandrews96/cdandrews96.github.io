@@ -44,6 +44,11 @@ h1, h2, h3, h4, h5, h6 {
     border-style: solid 1px;
 }
 
-#temp {
+#temp, #high-low, #feels-like {
     text-align: center;
+}
+
+#actual-temp {
+    text-align: center;
+    font-size: 3em;
 }
