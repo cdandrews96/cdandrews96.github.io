@@ -2,6 +2,13 @@
 1. Imports
 2. General Rules
 3. Mobile Rules
+    3a. Franklin, ID Title
+    3b. Temperature
+    3c. Wind
+    3d. Clear
+    3e. Hourly Forecast
+    3f. Footer
+    3g. Navigation
 4. Large Screen Rules
 
 */
@@ -23,10 +30,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* 3. Mobile Rules */
+    /* 3a. Franklin, ID Title */
 #page-header {
     background-color: blue;
 }
 
 #header-title {
     font-size: 2em;
+}
+
+    /*3b. Temperature*/
+#franklin-idaho {
+    border: 1px;
 }
