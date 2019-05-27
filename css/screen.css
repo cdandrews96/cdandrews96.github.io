@@ -84,3 +84,15 @@ section {
     margin-left: auto;
     margin-right: auto;
 }
+
+    /*3d. Clear*/
+
+#clear-title {
+    text-align: center;
+}
+
+    /*3e. Hourly Forecast*/
+
+#forecast-title {
+    text-align: center;
+}
