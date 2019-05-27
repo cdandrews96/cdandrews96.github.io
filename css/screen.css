@@ -29,6 +29,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Sansita, sans-serif;
 }
 
+main {
+    border: 5px;
+}
+
 section {
     border: 2px solid black;
 }
@@ -62,10 +66,12 @@ section {
 }
 
     /*3c. Wind*/
-.font-center {
+#wind, #direction, #gusts {
     text-align: center;
 }
 
-#center {
-    align-content: center;
+#wind-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
