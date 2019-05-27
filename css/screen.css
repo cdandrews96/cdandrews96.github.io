@@ -60,3 +60,12 @@ section {
 #low {
     color: blue;
 }
+
+    /*3c. Wind*/
+.font-center {
+    text-align: center;
+}
+
+#center {
+    align-content: center;
+}
