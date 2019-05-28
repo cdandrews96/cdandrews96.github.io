@@ -93,6 +93,6 @@ section {
 
     /*3e. Hourly Forecast*/
 
-#forecast-title {
+#forecast-title, #hourly-numbers {
     text-align: center;
 }
