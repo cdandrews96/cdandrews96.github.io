@@ -37,8 +37,8 @@ main {
 section {
     border: 2px solid black;
     border-radius: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 
 /* 3. Mobile Rules */
@@ -105,4 +105,10 @@ footer {
     /*3g. Navigation*/
 nav {
     background-color: blue;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
