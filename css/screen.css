@@ -96,3 +96,13 @@ section {
 #forecast-title, #hourly-numbers {
     text-align: center;
 }
+
+    /*3f. Footer*/
+footer {
+    background-color: blue;
+}
+
+    /*3g. Navigation*/
+nav {
+    background-color: blue;
+}
