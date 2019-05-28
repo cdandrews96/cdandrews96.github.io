@@ -102,7 +102,7 @@ section {
     /*3f. Footer*/
 footer {
     background-color: blue;
-    font-size: 2em;
+    font-size: 1em;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -122,4 +122,5 @@ ul {
 li a {
     display: box;
     width: 60px;
+    color: white;
 }
