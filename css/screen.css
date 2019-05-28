@@ -39,6 +39,8 @@ section {
     border-radius: 10px;
     padding-top: 6px;
     padding-bottom: 6px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 /* 3. Mobile Rules */
