@@ -102,15 +102,24 @@ section {
     /*3f. Footer*/
 footer {
     background-color: blue;
+    font-size: 2em;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
     /*3g. Navigation*/
 nav {
     background-color: blue;
+    margin top: 5px;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+li a {
+    display: box;
+    width: 60px;
 }
