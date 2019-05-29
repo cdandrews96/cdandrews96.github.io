@@ -45,7 +45,7 @@ section {
 
 /* 3. Mobile Rules */
 #page-header {
-    background-color: blue;
+    background-color: #0e89d5;
 }
 
 #header-title {
@@ -101,7 +101,7 @@ section {
 
     /*3f. Footer*/
 footer {
-    background-color: blue;
+    background-color: #0e89d5;
     font-size: 1em;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -109,7 +109,7 @@ footer {
 
     /*3g. Navigation*/
 nav {
-    background-color: blue;
+    background-color: #0e89d5;
     margin-top: 5px;
 }
 
