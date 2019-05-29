@@ -109,8 +109,9 @@ footer {
 
     /*3g. Navigation*/
 nav {
+    position: fixed;
+    bottom: 0;
     background-color: #0e89d5;
-    margin-top: 5px;
 }
 
 ul {
