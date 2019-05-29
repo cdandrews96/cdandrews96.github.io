@@ -95,7 +95,7 @@ section {
 
     /*3e. Hourly Forecast*/
 
-#forecast-title, #hourly-numbers {
+#forecast-title {
     text-align: center;
 }
 
@@ -112,6 +112,7 @@ nav {
     position: fixed;
     bottom: 0;
     background-color: #0e89d5;
+    width: 100%;
 }
 
 ul {
