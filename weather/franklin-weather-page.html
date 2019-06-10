@@ -18,21 +18,24 @@
             <h1>Franklin, Idaho</h1>
             <p><strong>Zip:</strong> 83237 | <strong>Elevation:</strong> 1514.246 | <strong>Location:</strong> 42.07 N, 111.79 W</p>
         </section>
-        <section id="temperature">
+        <div id="widescreen">
+        <section id="temperature" class="main-containers">
             <h2 id="temp">Temperature</h2>
             <p id="actual-temp">24F</p>
             <p id="high-low"><span id="high">34F</span> <span id="low">21F</span></p>
             <p id="feels-like">Feels Like 25 F</p>
         </section>
-        <section id="wind-direction">
+        <section id="wind-direction" class="main-containers">
             <h2 id="wind">Wind</h2>
             <img id="wind-image" src="weather-site-images/images/wind-pointer.png" alt="Wind Pointer">
             <p id="direction"><strong>Direction:</strong> NW</p>
             <p id="gusts"><strong>Gusts:</strong> 5mph</p>
         </section>
-        <section id="clear">
-            <h2 id="clear-title">Clear</h2>
+        <section id="clear" class="main-containers">
+            <h2 id="clear-title">Rain</h2>
+            <img id="rain-image" src="weather-site-images/images/rain.jpg">
         </section>
+    </div>
         <section id="forecast">
             <h2 id="forecast-title">Hourly Forecast</h2>
             <ul id="hourly-list">
@@ -50,6 +53,7 @@
                 <li>9pm: 51 F</li>
             </ul>
         </section>
+    
 
     </main>
     <footer>
@@ -57,7 +61,7 @@
     </footer>
 
     <nav>
-        <ul>
+        <ul id="links">
             <li><a href="#" title="Go to the Weather Site home page">Current</a></li>
             <li><a href="#" title="Search bar">Search</a></li>
             <li><a href="#" title="Franklin">Franklin</a></li>

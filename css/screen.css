@@ -43,6 +43,16 @@ section {
     margin-bottom: 5px;
 }
 
+.main-containers {
+    background-image: url(../weather/weather-site-images/images/rain.jpg);
+    text-align: center;
+}
+
+#rain-image {
+    height: 50%;
+    width: 50%;
+}
+
 /* 3. Mobile Rules */
 #page-header {
     background-color: #0e89d5;
@@ -109,10 +119,14 @@ footer {
 
     /*3g. Navigation*/
 nav {
-    position: fixed;
     bottom: 0;
     background-color: #0e89d5;
     width: 100%;
+}
+
+#links {
+    display: flex;
+    justify-content: center;
 }
 
 ul {
@@ -125,4 +139,25 @@ li a {
     display: box;
     width: 60px;
     color: white;
+}
+
+/*4. Large Screen Rules*/
+@media only screen and (min-width: 1025px){
+
+    #widescreen {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .main-containers {
+        width: 100%;
+    }
+
+
+
+    nav {
+        position: absolute;
+        bottom: 600px;
+    }
 }
