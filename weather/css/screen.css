@@ -200,6 +200,8 @@ nav {
 }
 
 ul {
+    display: flex;
+    text-align: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
