@@ -3,38 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="Gives the current weather of the Franklin, ID area.">
+    <meta name="description" content="Gives the current weather of the Franklin, ID area.">
     <title>Franklin, ID | Weather Site</title>
     <link rel="stylesheet" href="/css/screen.css" media="screen">
 </head>
 <body>
     <header id="page-header">
-        <img src="weather/images/plan-images/logo.jpeg" alt="Weather Site Logo">
+        <img src="images/plan-images/logo.jpeg" alt="Weather Site Logo">
         <p id="header-title">The Weather Site</p>
     </header>
     
     <main>
+
         <section id="franklin-idaho">
             <h1>Franklin, Idaho</h1>
-            <p><strong>Zip:</strong> 83237 | <strong>Elevation:</strong> 1514.246 | <strong>Location:</strong> 42.07 N, 111.79 W</p>
+            <p><strong>Zip:</strong> 83237 | <strong>Elevation:</strong><span id="elevation">1514.246</span> | <strong>Location:</strong> 42.07 N, 111.79 W</p>
         </section>
         <div id="widescreen">
-        <section id="temperature" class="main-containers">
+
+        <div id="weather-images"><section id="temperature" class="main-containers">
             <h2 id="temp">Temperature</h2>
             <p id="actual-temp">24F</p>
             <p id="high-low"><span id="high">34F</span> <span id="low">21F</span></p>
-            <p id="feels-like">Feels Like 25 F</p>
+            <p id="feels-like">Feels Like <span id="feelTemp">25</span> &deg;F</p>
         </section>
+
         <section id="wind-direction" class="main-containers">
             <h2 id="wind">Wind</h2>
-            <img id="wind-image" src="weather-site-images/images/wind-pointer.png" alt="Wind Pointer">
+            <div id="dial" class="w"><img id="wind-image" src="weather-site-images/images/wind-pointer.png" alt="Wind Pointer"></div>
             <p id="direction"><strong>Direction:</strong> NW</p>
             <p id="gusts"><strong>Gusts:</strong> 5mph</p>
         </section>
-        <section id="clear" class="main-containers">
-            <h2 id="clear-title">Rain</h2>
-            <img id="rain-image" src="weather-site-images/images/rain.jpg">
+        
+        <section id="weather-condition" class="main-containers">
+            <h2 id="clear-title"><span id="condition">Rain</span></h2>
+            <div id="small-condition"><span></span></div>
         </section>
+    </div>
     </div>
         <section id="forecast">
             <h2 id="forecast-title">Hourly Forecast</h2>
@@ -68,6 +73,6 @@
             <li><a href="#" title="Greenville">Greenville</a></li>
         </ul>
     </nav>
-    
+  <script src="js/functions.js"></script>      
 </body>
 </html>
