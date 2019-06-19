@@ -2,15 +2,15 @@
 
 
 // Variables for function use
-const temp = 31;
-const speed = 5;
+let temp = 31;
+let speed = 5;
 buildWC(speed, temp);
-const direction = "NW";
+let direction = "NW";
 windDial(direction);
 
 /* Windchill Calculator */
 function buildWC(speed, temp) {
-    const feelTemp = document.getElementById('feels-like');
+    let feelTemp = document.getElementById('feels-like');
 // Compute the Windchill
 let wc = 35.74 + 0.6215 * temp - 35.75 * Math.pow(speed, 0.16) + 0.4275 * temp * Math.pow(speed, 0.16);
 console.log(wc);
@@ -26,7 +26,7 @@ console.log(wc);
 // Wind Dial Function
 function windDial(direction){
 // Get the wind dial container
-    const dial = document.getElementById("dial");
+    let dial = document.getElementById("dial");
 // Determine the dial class
     switch (direction){
         case "North":
@@ -106,8 +106,8 @@ changeSummaryImage(weather);
 
 function changeSummaryImage(weather) {
 
-    const maincontainers = document.getElementById("weather-images");
-    const weathercondition = document.getElementById("weather-condition");
+    let maincontainers = document.getElementById("weather-images");
+    let weathercondition = document.getElementById("weather-condition");
 
     if (weather == "clear") {
         maincontainers.setAttribute("class", "clear");
