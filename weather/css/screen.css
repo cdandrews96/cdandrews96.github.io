@@ -20,6 +20,10 @@
 
 
 /* 2. General */
+.hide{
+    display: none;
+}
+
 body {
     font-size: 20px;
     font-family: helvetica, sans-serif;
