@@ -53,6 +53,11 @@ section {
     background-size: cover;
 }
 
+#hourly-list {
+    overflow: auto;
+    white-space: nowrap;
+}
+
 
 
 /* #rain-image {
@@ -61,8 +66,8 @@ section {
 } */
 
 #small-condition {
-    height: 50%;
-    width: 50%;
+    height: 250px;
+    width: 250px;
     display: block;
     margin: 0 auto;
 }

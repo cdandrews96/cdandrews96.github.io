@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <!-- <meta name="viewport" initial-scale=1.0> -->
     <meta name="description" content="Gives the current weather of the Franklin, ID area.">
     <title>Franklin, ID | Weather Site</title>
     <link rel="stylesheet" href="/css/screen.css" media="screen">
@@ -37,7 +37,7 @@
         
         <section id="weather-condition" class="main-containers">
             <h2 id="clear-title"><span id="condition">Rain</span></h2>
-            <div id="small-condition"><span></span></div>
+            <div id="small-condition" class="small-image"><span></span></div>
         </section>
     </div>
     </div>
@@ -65,7 +65,7 @@
         &copy;2019, The Weather Site
     </footer>
 
-    <nav>
+    <nav id="page-nav">
         <ul id="links">
             <li><a href="#" title="Go to the Weather Site home page">Current</a></li>
             <li><a href="#" title="Search bar">Search</a></li>
@@ -73,6 +73,7 @@
             <li><a href="https://cdandrews96.github.io/weather/greenville-weather-page.html" title="Greenville">Greenville</a></li>
         </ul>
     </nav>
-  <script src="js/functions.js"></script>      
+  <script src="js/functions.js"></script>
+  <script src="js/localdata.js"></script>      
 </body>
 </html>

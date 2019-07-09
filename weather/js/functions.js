@@ -1,4 +1,7 @@
 /* Weather Site Java Script Functions */
+console.log('My javascript is being read.');
+
+
 
 
 // Variables for function use
@@ -10,7 +13,7 @@ windDial(direction);
 
 /* Windchill Calculator */
 function buildWC(speed, temp) {
-    let feelTemp = document.getElementById('feels-like');
+    let feelTemp = document.getElementById('feelTemp');
 // Compute the Windchill
 let wc = 35.74 + 0.6215 * temp - 35.75 * Math.pow(speed, 0.16) + 0.4275 * temp * Math.pow(speed, 0.16);
 console.log(wc);
@@ -76,6 +79,7 @@ getCondition(lower);
 
 // Strings
 function getCondition(lower) {
+    console.log(lower);
 
     if (lower.includes('clear') || lower.includes('sunny')){
         return "clear";
@@ -107,7 +111,7 @@ changeSummaryImage(weather);
 function changeSummaryImage(weather) {
 
     let maincontainers = document.getElementById("weather-images");
-    let weathercondition = document.getElementById("weather-condition");
+    let weathercondition = document.getElementById("small-condition");
 
     if (weather == "clear") {
         maincontainers.setAttribute("class", "clear");
@@ -137,7 +141,7 @@ function changeSummaryImage(weather) {
 
 
 let meters = document.getElementById('elevation').innerHTML;
-convertMeters (elevation);
+// convertMeters (meters);
 function convertMeters (elevation) {
 
     let feet = elevation*3.281;
@@ -148,7 +152,7 @@ function convertMeters (elevation) {
 
 }
 
-document.getElementById('elevation').innerHTML = convertMeters(elevation);
+document.getElementById('elevation').innerHTML = convertMeters(meters);
 
 
 
@@ -168,6 +172,10 @@ function format_time(hour) {
 
 }
 
+// Get the next hour based on the current time
+let date = new Date();
+let nextHour = date.getHours() + 1;
+
 // Build the hourly temperature list
 function buildHourlyData(nextHour, hourlyTemps) {
     // Data comes from a JavaScript object of hourly temp name - value pairs
@@ -183,6 +191,5 @@ for (let i = 1, x = hourlyTemps.length; i < x; i++) {
 console.log('HourlyList is: ' +hourlyListItems);
 return hourlyListItems; 
 
-let date = new Date();
-let nextHour = date.getHours() + 1;
+
 }

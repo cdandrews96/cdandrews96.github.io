@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <meta name="description" content="Gives the current weather of the Franklin, ID area.">
-    <title id="page-title">Greenville, SC | Weather Site</title>
+    <title id="page-title"> | Weather Site</title>
     <link rel="stylesheet" href="/css/screen.css" media="screen">
 </head>
 <body>
@@ -17,25 +17,25 @@
     
     <main id="main-content" class="hide">
 
-        <section id="franklin-idaho
-        ">
-            <h1>Greenville, South Carolina</h1>
-            <p><strong>Zip:</strong> 83237 | <strong>Elevation:</strong><span id="elevation">1514.246</span> | <strong>Location:</strong> 42.07 N, 111.79 W</p>
+        <section id="franklin-idaho">
+            <h1 id="g-header">Greenville, South Carolina</h1>
+            <p><strong>Zip: </strong><span id="areaCode"></span> | <strong>Elevation: </strong><span id="elevation"></span> | <strong>Location: </strong><span id="greenLong"></span>, <span id="greenLat"></span> </p>
         </section>
         <div id="widescreen">
 
         <div id="weather-images"><section id="temperature" class="main-containers">
             <h2 id="temp">Temperature</h2>
             <p id="actual-temp">24F</p>
-            <p id="high-low"><span id="high">34F</span> <span id="low">21F</span></p>
-            <p id="feels-like">Feels Like <span id="feelTemp">25</span> &deg;F</p>
+            <p id="high-low"><span id="high"></span> <span id="low"></span></p>
+            <p id="feels-like">Feels Like <span id="feelTemp"></span> &deg;F</p>
         </section>
 
         <section id="wind-direction" class="main-containers">
             <h2 id="wind">Wind</h2>
             <div id="dial" class="w"><img id="wind-image" src="weather-site-images/images/wind-pointer.png" alt="Wind Pointer"></div>
-            <p id="direction"><strong>Direction:</strong> NW</p>
-            <p id="gusts"><strong>Gusts:</strong> 5mph</p>
+            <p id="direction"><strong>Direction: </strong><span id="wind-direct"></span> </p>
+            <p id="speed"><strong>Wind Speed: </strong><span id="wind-speed"></span></p>
+            <p id="gusts"><strong>Gusts: </strong><span id="wind-gusts"></span> </p>
         </section>
         
         <section id="weather-condition" class="main-containers">
@@ -47,18 +47,7 @@
         <section id="forecast">
             <h2 id="forecast-title">Hourly Forecast</h2>
             <ul id="hourly-list">
-                <li>10am: 41 F</li>
-                <li>11am: 41 F</li>
-                <li>12pm: 41 F</li>
-                <li>1pm: 41 F</li>
-                <li>2pm: 41 F</li>
-                <li>3pm: 41 F</li>
-                <li>4pm: 42 F</li>
-                <li>5pm: 44 F</li>
-                <li>6pm: 44 F</li>
-                <li>7pm: 46 F</li>
-                <li>8pm: 49 F</li>
-                <li>9pm: 51 F</li>
+                
             </ul>
         </section>
     
@@ -76,6 +65,7 @@
             <li><a href="https://cdandrews96.github.io/weather/greenville-weather-page.html" title="Greenville">Greenville</a></li>
         </ul>
     </nav>
-  <script src="js/functions.js"></script>      
+  <script src="js/functions.js"></script> 
+  <script src="js/localdata.js"></script>     
 </body>
 </html>
