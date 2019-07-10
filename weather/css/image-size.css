@@ -6,18 +6,18 @@ ul {
 h1 {
     color: blue;
 }
-#large-images {
+#largeimages {
     display: none;
 }
 
 
 
 @media screen and (min-width: 500px){
-    #small-images {
+    #smallimages {
         display: none;
     }
 
-    #large-images {
+    #largeimages {
         display: initial;
     }
 }
