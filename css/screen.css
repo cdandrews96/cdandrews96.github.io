@@ -20,6 +20,10 @@
 
 
 /* 2. General */
+.hide{
+    display: none;
+}
+
 body {
     font-size: 20px;
     font-family: helvetica, sans-serif;
@@ -44,13 +48,68 @@ section {
 }
 
 .main-containers {
-    background-image: url(../weather/weather-site-images/images/rain.jpg);
+    background-image: url(../weather-site-images/images/rain.jpg);
     text-align: center;
+    background-size: cover;
 }
 
-#rain-image {
+#hourly-list {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+
+/*hi*/
+/* #rain-image {
     height: 50%;
     width: 50%;
+} */
+
+#small-condition {
+    height: 250px;
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
+/*#dial {
+    height: 150px;
+    width: 150px;
+    background: no-repeat center/85% url('/weather/images/wind-pointer.png');
+    z-index: 100;
+    margin: -.6em auto 0;
+}*/
+
+.n {
+    transform: rotate(0deg);
+}
+
+.ne {
+    transform: rotate(45deg);
+}
+
+.e {
+    transform: rotate(90deg);
+}
+
+.se {
+    transform: rotate(135deg);
+}
+
+.s {
+    transform: rotate(180deg);
+}
+
+.sw {
+    transform: rotate(225deg);
+}
+
+.w {
+    transform: rotate(270deg);
+}
+
+.nw {
+    transform: rotate(315deg);
 }
 
 /* 3. Mobile Rules */
@@ -60,6 +119,26 @@ section {
 
 #header-title {
     font-size: 2em;
+}
+
+.clear {
+    background-image: url(../weather-site-images/images/clear-small.jpg);
+}
+
+.rain {
+    background-image: url(../weather-site-images/images/rain-small.jpg);
+}
+
+.clouds {
+    background-image: url(../weather-site-images/images/clouds-small.jpg);
+}
+
+.fog {
+    background-image: url(../weather-site-images/images/fog-small.jpg);
+}
+
+.snow {
+    background-image: url(../weather-site-images/images/snow-small.jpg);
 }
 
     /*3a. Franklin, Idaho*/
@@ -130,13 +209,14 @@ nav {
 }
 
 ul {
+    display: flex;
     list-style-type: none;
-    margin: 0;
+    margin: auto 0;
     padding: 0;
 }
 
 li a {
-    display: box;
+    display: inline;
     width: 60px;
     color: white;
 }
@@ -150,11 +230,36 @@ li a {
         width: 100%;
     }
 
+    #weather-images{
+        display:flex;
+        width: 95%;
+        Margin: 0 auto;
+        justify-content: center;
+    }
+
     .main-containers {
         width: 100%;
     }
 
-
+    .clear {
+        background-image: url(../weather-site-images/images/clear-large.jpg);
+    }
+    
+    .rain {
+        background-image: url(../weather-site-images/images/rain-large.jpg);
+    }
+    
+    .clouds {
+        background-image: url(../weather-site-images/images/clouds-large.jpg);
+    }
+    
+    .fog {
+        background-image: url(../weather-site-images/images/fog-large.jpg);
+    }
+    
+    .snow {
+        background-image: url(../weather-site-images/images/snow-large.jpg);
+    }
 
     nav {
         position: absolute;
