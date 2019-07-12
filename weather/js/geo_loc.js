@@ -1,3 +1,5 @@
+/*
+
 //Functions working together to get weather data for current location
 'use strict';
 
