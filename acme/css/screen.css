@@ -1,0 +1,64 @@
+/******** Table of Contents ********/
+
+/* 
+1. Imports
+2. General Rules
+3. Mobile rules
+    3a. header
+    3b. navigation
+    3c. welcome
+    3d. reviews
+    3e. recipes
+    3f. footer
+4. Large Screen
+*/
+
+/*** Imports ***/
+
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+/*** General Rules ***/
+
+body {
+    background-image: url(../images/site/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Lato, sans-serif;
+}
+
+main {
+    background-color: white;
+    /* margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px; */
+    width: 94%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Lato, sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+
+/*** Mobile Rules ***/
+
+/*header*/
+header img {
+    height: 100%;
+    width: 100%;
+}
+
+/*navigation*/
+nav {
+    background-color: #de2226;
+}
+
+/*welcome*/
+#rocket {
+    max-width: 100%;
+}
+
