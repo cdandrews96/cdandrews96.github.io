@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo&display=swap');
+
 body {
     font-size: 16px;
     line-height: 32px;
-    font-family: sans-serif;
+    font-family: Heebo;
     color: #000;
 }
 
@@ -37,6 +39,8 @@ header img {
     width: 200px;
     height: auto;
     float: right;
+    border-radius: 6px;
+    box-shadow: 5px 5px 5px grey;
 }
 
 footer {
@@ -46,9 +50,4 @@ footer {
 ul {
     margin: 0 auto;
     max-width: 300px;
-}
-
-/*img {
-    width: 200px;
-
 }
