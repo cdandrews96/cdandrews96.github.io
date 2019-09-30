@@ -1,7 +1,7 @@
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 32.5em) {
     
     main {
-        display: columns;
+        display: grid;
         grid-template-columns: 1fr 1fr;
     }
     
@@ -9,9 +9,9 @@
         display: block;
     }
 
-    .principle-3 {
+    /*.principle-3 {
         grid-column: span 2;
-    }
+    } */
 
 
 }
