@@ -1,3 +1,13 @@
+// *** Toggle menu function ***
+
+function toggleMenu() {
+	document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
+}
+
+
+
+// *** Get current date function ***
+
 var currentDate = new Date();
 var currentDateString;
 
