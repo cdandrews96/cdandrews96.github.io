@@ -17,6 +17,21 @@ h1, h2 {
     font-family: Merriweather;
 }
 
+p {
+    font-family: Heebo;
+}
+
+article {
+    border: 1px black solid;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+article p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 h1 {
     font-size: 40px;
     color: #a6e1fa;
