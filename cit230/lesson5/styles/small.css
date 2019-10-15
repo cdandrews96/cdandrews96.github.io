@@ -80,6 +80,10 @@ nav {
     transition-duration: 1s;
 }
 
+table, td, th {
+    border: 1px solid black;
+}
+
 /* ----- Footer styles ----- */
 
 footer {
