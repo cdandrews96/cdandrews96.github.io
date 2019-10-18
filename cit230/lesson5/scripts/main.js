@@ -57,3 +57,17 @@ document.getElementById('currentDate').innerHTML = currentDateString;
 
 // DEBUG:
 console.log(currentDateString);
+
+
+
+// Table for five day forecast
+
+
+
+
+
+
+
+// **************** NOTES *******************
+// An action in a function means someone has to call the function.
+// An action that starts when the page loads are outside of functions.

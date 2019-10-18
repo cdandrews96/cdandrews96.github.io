@@ -15,4 +15,8 @@
     .navigation li a {
         color: #00798c;
     }
+
+    #map {
+        display: block;
+    }
 }
