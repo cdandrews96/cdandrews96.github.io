@@ -61,7 +61,28 @@ console.log(currentDateString);
 
 
 // Table for five day forecast
+let currentDay = weekDayNumber;
 
+for (let i = 1; i < 6; i++) {
+    // add one day to current day
+    currentDay++;
+
+    // if current day is greater than 6 (Saturday), reset it to 0 (Sunday)
+    if (currentDay > 6) {
+        currentDay = 0;
+    }
+
+    // assign value to placeholder in HTML
+    // const element = document.getElementById('day + i');
+    const element = document.getElementById(`day${i}`);
+
+    element.innerHTML = daysOfWeek[currentDay];
+}
+
+// Show pancake on Saturday
+if (weekDayNumber === 5) {
+    document.getElementById("pancake").removeAttribute("class", "hidden");
+}
 
 
 
@@ -71,3 +92,4 @@ console.log(currentDateString);
 // **************** NOTES *******************
 // An action in a function means someone has to call the function.
 // An action that starts when the page loads are outside of functions.
+// $ - about to input a variable
