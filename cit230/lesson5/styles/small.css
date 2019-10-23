@@ -16,8 +16,12 @@ header {
 header img {
     width: 60px;
     padding-right: 10px;
-    
 }
+
+article img {
+    width: 100%;
+}
+
 
 h1, h2, h3 {
     font-family: Merriweather;
@@ -28,9 +32,11 @@ p {
 }
 
 article {
-    border: 1px black solid;
+    border: 3px #00798c solid;
+    border-radius: 10px;
     margin-top: 5px;
     margin-bottom: 5px;
+    background-color: #a6e1fa;
 }
 
 article p {
@@ -46,6 +52,10 @@ h1 {
 
 h2 {
     font-size: 22px;
+    text-align: center;
+}
+
+h3 {
     text-align: center;
 }
 
