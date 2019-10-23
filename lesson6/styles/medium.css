@@ -1,0 +1,59 @@
+@media only screen and (min-width: 32.5em) {
+    body {
+        background-image: url(sky.jpg);
+    }
+    
+    main {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .hero-image {
+        width: 500px;
+    }
+    
+    #map {
+        display: block;
+    }
+
+    #forecast {
+        display: block;
+    }
+
+    td {
+        background-color: #00798c;
+        color: #a6e1fa;
+    }
+
+    th {
+        background-color: #a6e1fa;
+    }
+
+    table {
+        background-color: black;
+        font-family: Heebo;
+    }
+
+    #blue {
+        background-color: #a6e1fa;
+    }
+
+    #frame {
+        display: block;
+        margin: 15px 0px;
+        text-align: center;
+    }
+
+    .weather-summary {
+        width: 200px;
+    }
+
+    table {
+        margin: 0 auto;
+    }
+
+    
+} 
+
+
+
