@@ -16,7 +16,19 @@
         color: #00798c;
     }
 
-    #map {
+    #frame {
         display: block;
+    }
+
+    main {
+        max-width: 800px;
+    }
+
+    .hero-image {
+        width: 800px;
+    }
+
+    iframe {
+        width: 800px;
     }
 }

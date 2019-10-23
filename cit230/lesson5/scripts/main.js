@@ -4,6 +4,15 @@ function toggleMenu() {
 	document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
 }
 
+//
+
+// class Date:
+   // function getDay() { return 22; }
+   // var Type_Of_Calender = "Gregorian"
+
+//var myDate = new Date();
+
+// Gregorian
 
 
 // *** Get current date function ***
@@ -47,9 +56,7 @@ var months = [
 
 var monthNumber = currentDate.getMonth();
 
-var month = [monthNumber];
-
-currentDateString += ' ' + month;
+currentDateString += ' ' + months[monthNumber];
 
 currentDateString += ' ' + currentDate.getFullYear();
 

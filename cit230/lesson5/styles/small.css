@@ -57,6 +57,7 @@ h2 {
 
 h3 {
     text-align: center;
+    color: #00798c;
 }
 
 /* ------ Navigation Styles ------ */
@@ -132,7 +133,9 @@ footer span, footer p {
 }
 
 .copyright {
+    max-width: 800px;
     margin: 20px 0px;
+    margin: 0 auto;
     border-top: #a6e1fa solid 2px;
     padding: 20px 0px;
 }
@@ -153,7 +156,7 @@ footer p {
 }
 
 .hero-container {
-    position: relative; 
+    position: relative;
 }
 
 .weather-summary {
