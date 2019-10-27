@@ -36,12 +36,10 @@
         <div class="hero-container">
                 <img class="hero-image" src="images/town-pic-large.jpg" alt="Preston Town Picture">
                 <section class="weather-summary">
-                    <h3>Weather: Sunny</h3>
-                    <p>Currently: Value</p>
-                    <p>High: 58&deg;</p>
-                    <p>Wind Chill: 50&deg;</p>
-                    <p>Humidity: 70%</p>
-                    <p>Wind Speed: 10mph</p>
+                    <h3>Weather Summary</h3>
+                    <div><span>Current: </span><span id="currentTemp"></span></div>
+                    <div><span>Wind Speed: </span><span id="windSpeed"></span></div>
+                    <div><span>Wind Chill: </span><span id="windChill"></span></div>
                 </section>
             </div>
 
@@ -81,10 +79,12 @@
             <img src="images/hiking-pic.jpg" alt="Hiking Picture">
         </article>
 
-        <div id="frame">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2878.74915602766!2d-111.78890908462769!3d43.81956227911588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540baa7860609d%3A0x927acc8d4d25e247!2sRexburg%2C%20ID%20-%20BYU%20Idaho!5e0!3m2!1sen!2sus!4v1571245116751!5m2!1sen!2sus" width="500" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-        </div>
+        
     </main>
+
+    <div id="frame">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2878.74915602766!2d-111.78890908462769!3d43.81956227911588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540baa7860609d%3A0x927acc8d4d25e247!2sRexburg%2C%20ID%20-%20BYU%20Idaho!5e0!3m2!1sen!2sus!4v1571245116751!5m2!1sen!2sus" width="500" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div>
 
     <footer>
         <h2>Contact Information</h2>
@@ -95,6 +95,7 @@
         &copy; One Drop Weather | Caleb Andrews | <span id="currentDate"></span>
     </p>
     </footer>
-    <script src="scripts/main.js"></script>    
+    <script src="scripts/main.js"></script>
+    <script src="scripts/wind-chill.js"></script>    
 </body>
 </html>

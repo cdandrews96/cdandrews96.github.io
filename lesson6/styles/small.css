@@ -6,6 +6,11 @@ main{
     margin: 0 auto;
 }
 
+body {
+    background-color: #ebe9e4;
+    /*background-image: url(/lesson6/images/sky.jpg); */
+}
+
 header {
     background-color: #00798c;
     display: flex;
@@ -103,6 +108,10 @@ table, td, th {
 
 #forecast {
     display: none; 
+}
+
+#blue {
+    color: black;
 }
 
 #frame {
