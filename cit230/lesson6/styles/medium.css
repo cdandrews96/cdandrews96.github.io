@@ -6,8 +6,13 @@
         margin: 0 auto;
     }
 
-    .hero-image {
+    .medium-hero {
+        display: block;
         width: 500px;
+    }
+
+    .hero-image, .small-hero {
+        display: none;
     }
     
     #map {

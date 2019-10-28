@@ -1,4 +1,18 @@
 @media only screen and (min-width: 50em) {
+    main {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    .hero-image {
+        width: 700px;
+        display: block;
+    }
+
+    .small-hero, .medium-hero {
+        display: none;
+    }
+
     .navigation {
         display: flex;
     }
