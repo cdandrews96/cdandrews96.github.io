@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Preston, Idaho | One Drop Weather</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>
+    <header>
+        <img src="images/weather-site-logo.png" alt="logo">
+        <h1>One Drop Weather</h1>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="preston-7.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li class="active"><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main id="gallery-main">
+        <section id="gallery">
+            <figure>
+                <img src="images/gallery-images/rain.jpg" alt="">
+                <!--Photo by Osman Rana on Unsplash-->
+                <figcaption>Rain</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/gallery-images/sunny.jpg" alt="">
+                <!--Photo by Kumiko SHIMIZU on Unsplash-->
+                <figcaption>Sunny Day</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/gallery-images/lightning.jpg" alt="Lightning Picture">
+                <!--Photo by Michał Mancewicz on Unsplash-->
+                <figcaption>Lightning</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/gallery-images/snowflake.jpg" alt="Snowflake Picture">
+                <!--Photo by Aaron Burden on Unsplash-->
+                <figcaption>Snowflake</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/gallery-images/wind.jpg" alt="Wind Picture">
+                <!--Photo by Ivan Vranić on Unsplash-->
+                <figcaption>Windy Day</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/gallery-images/fog.jpg" alt="Fog Image">
+                <!--Photo by Markos Mant on Unsplash-->
+                <figcaption>Fog</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/gallery-images/snow.jpg" alt="Snowy Day">
+                <!--Photo by Jason Blackeye on Unsplash-->
+                <figcaption>Snow</figcaption>
+            </figure>
+            <figure>
+                <img src="images/gallery-images/overcast.jpg" alt="Overcast Image">
+                <!--Photo by Nathan Anderson on Unsplash-->
+                <figcaption>Overcast</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/gallery-images/humid.jpg" alt="Humid Image">
+                <!--Photo by freestocks.org on Unsplash-->
+                <figcaption>Humid</figcaption>
+            </figure>
+    </section>
+        
+
+        
+    </main>
+
+    <footer>
+        <h2>Contact Information</h2>
+        <p>30 N 1st E Preston, ID 83326</p>
+        <p># 555 555 5555</p>
+        <p>onedropweather@gmail.com</p>
+        <p class="copyright">
+        &copy; One Drop Weather | Caleb Andrews | <span id="currentDate"></span>
+    </p>
+    </footer>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/wind-chill.js"></script>    
+</body>
+</html>
