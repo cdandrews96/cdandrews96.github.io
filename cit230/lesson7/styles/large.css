@@ -1,4 +1,6 @@
-@media only screen and (min-width: 50em) {
+@media only screen and (min-width: 1450px) {
+/*50em*/
+
     #gallery {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
