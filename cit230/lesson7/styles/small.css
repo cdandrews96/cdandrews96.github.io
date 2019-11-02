@@ -6,6 +6,11 @@ main{
     margin: 0 auto;
 }
 
+#gallery-main {
+    max-width: none;
+    margin: 0 auto;
+}
+
 body {
     background-color: #ebe9e4;
     /*background-image: url(/lesson6/images/sky.jpg); */
@@ -200,8 +205,7 @@ footer p {
     grid-template-columns: 1fr;
 }
 
-#gallery figure {
-    /*border: 1px solid black; */
+/* #gallery figure {
     text-align: center;
 }
 
@@ -209,15 +213,15 @@ figure {
     font-family: Heebo;
 }
 
-figure img {
-    box-shadow: 8px 8px 10px gray;
+figure a {
+    box-shadow: 0 0px 7px 5px rgba(0, 0, 0, 0.3);
     width: 400px;
     height: 300px;
     border-radius: 10px;
 }
 
-figure img:hover {
-    box-shadow: 10px 10px 10px #00798c;
+figure a:hover {
+    box-shadow: 0px 0px 30px #00798c;
     transition: .3s;
-}
+} */
 
