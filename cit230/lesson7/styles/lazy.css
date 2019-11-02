@@ -80,14 +80,14 @@ figure a:hover {
 
 }
 
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 960px) {
     #lazy-page {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 }
 
-@media only screen and (min-width: 50em) {
+@media only screen and (min-width: 1450px) {
     #lazy-page {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
