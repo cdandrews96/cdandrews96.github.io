@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;;
+}
+
+table, tr, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+table {
+    box-shadow: grey;
+}
+
+th {
+    background-color: #628ca6;
+    color: white;
+}
+
+/* [] - targets all the th tags that have the attribute "colspan="3" */
+th[colspan="3"] {
+    background-color: #7fb9c2;
+    color: black;
+}
+
+tbody tr {
+    background-color: #e7ffed;
+}
+
+tr:nth-child(odd) { 
+    background-color: #e7f0ed;
+}
+
+
+
+
+
+
+
+
+
