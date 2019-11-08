@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Preston, Idaho | One Drop Weather</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    
+</head>
+<body>
+    <header>
+        <img src="images/weather-site-logo.png" alt="logo">
+        <h1>One Drop Weather</h1>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <form action="thanks.html" method="GET">
+            <div>
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" required> <!--This is the most common tag for text boxes-->
+            </div>
+
+            <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="johndoe@gmail.com">
+                </div>
+
+            <div>
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+
+            <div>
+                    <label for="zipCode">Zip Code:</label>
+                    <input type="number" id="zipCode" name="zipCode" required>
+                </div>
+
+            <div>
+                    <label for="stormDate">Current Date:</label>
+                    <input type="date" id="stormDate" name="stormDate">
+                </div>
+
+            <div>
+                    <label for="stormType">Storm Type:</label>
+                    <input list="stormType">
+
+                    <datalist id="stormType">
+                        <option value="Flash Flood"></option>
+                        <option value="Hail"></option>
+                        <option value="Hurricane"></option>
+                        <option value="Thunderstorm"></option>
+                        <option value="Tornado"></option>
+                    </datalist>
+                </div>
+
+                <div>
+                        <label for="stormSeverity">Current Date:</label>
+                        <input type="range" id="stormSeverity" name="stormSeverity" min="1" max="10">
+                    </div>
+
+                <div>
+                    <input type="submit" value="submit">
+                </div>
+
+        </form>
+
+        
+    </main>
+
+    <div id="frame">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2878.74915602766!2d-111.78890908462769!3d43.81956227911588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540baa7860609d%3A0x927acc8d4d25e247!2sRexburg%2C%20ID%20-%20BYU%20Idaho!5e0!3m2!1sen!2sus!4v1571245116751!5m2!1sen!2sus" width="500" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div>
+
+    <footer>
+        <h2>Contact Information</h2>
+        <p>30 N 1st E Preston, ID 83326</p>
+        <p># 555 555 5555</p>
+        <p>onedropweather@gmail.com</p>
+        <p class="copyright">
+        &copy; One Drop Weather | Caleb Andrews | <span id="currentDate"></span>
+    </p>
+    </footer>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/wind-chill.js"></script>    
+</body>
+</html>
