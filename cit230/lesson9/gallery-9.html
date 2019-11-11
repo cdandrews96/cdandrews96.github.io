@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Preston, Idaho | One Drop Weather</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/lazy.css">
+</head>
+<body>
+    <header>
+        <img src="images/weather-site-logo.png" alt="logo">
+        <h1>One Drop Weather</h1>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="preston-7.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li class="active"><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main id="gallery-main">
+        <section id="gallery">
+            <figure>
+                    <a href="images/gallery-images/rain.jpg" class="progressive replace">
+                        <img src="images/gallery-images/rain-tiny.jpg" class="preview" alt="image" />
+                        </a>
+                <!--Photo by Osman Rana on Unsplash-->
+                <!-- <figcaption>Rain</figcaption> -->
+            </figure>
+
+            <figure>
+                    <a href="images/gallery-images/sunny.jpg" class="progressive replace">
+                        <img src="images/gallery-images/sunny-tiny.jpg" class="preview" alt="image" />
+                        </a>
+                <!--Photo by Kumiko SHIMIZU on Unsplash-->
+                <!-- <figcaption>Sunny Day</figcaption> -->
+            </figure>
+
+            <figure>
+                    <a href="images/gallery-images/lightning.jpg" class="progressive replace">
+                        <img src="images/gallery-images/tiny-lightning.jpg" class="preview" alt="image" />
+                        </a>
+                <!--Photo by Michał Mancewicz on Unsplash-->
+                <!-- <figcaption>Lightning</figcaption> -->
+            </figure>
+
+            <figure>
+                    <a href="images/gallery-images/snowflake.jpg" class="progressive replace">
+                        <img src="images/gallery-images/snowflake-tiny.jpg" class="preview" alt="image" />
+                        </a>
+                <!--Photo by Aaron Burden on Unsplash-->
+                <!-- <figcaption>Snowflake</figcaption> -->
+            </figure>
+
+            <figure>
+                    <a href="images/gallery-images/wind.jpg" class="progressive replace">
+                        <img src="images/gallery-images/wind-tiny.jpg" class="preview" alt="image" />
+                        </a>
+                <!--Photo by Ivan Vranić on Unsplash-->
+                <!-- <figcaption>Windy Day</figcaption> -->
+            </figure>
+
+            <figure>
+                    <a href="images/gallery-images/fog.jpg" class="progressive replace">
+                        <img src="images/gallery-images/fog-tiny.jpg" class="preview" alt="image" />
+                        </a>
+                <!--Photo by Markos Mant on Unsplash-->
+                <!-- <figcaption>Fog</figcaption> -->
+            </figure>
+
+            <figure>
+                    <a href="images/gallery-images/snow.jpg" class="progressive replace">
+                        <img src="images/gallery-images/snow-tiny.jpg" class="preview" alt="image" />
+                        </a>
+                <!--Photo by Jason Blackeye on Unsplash-->
+                <!-- <figcaption>Snow</figcaption> -->
+            </figure>
+            <figure>
+                    <a href="images/gallery-images/overcast.jpg" class="progressive replace">
+                        <img src="images/gallery-images/overcast-tiny.jpg" class="preview" alt="image" />
+                        </a>
+                <!--Photo by Nathan Anderson on Unsplash-->
+                <!-- <figcaption>Overcast</figcaption> -->
+            </figure>
+
+            <figure>
+                    <a href="images/gallery-images/humid.jpg" class="progressive replace">
+                        <img src="images/gallery-images/humid-tiny.jpg" class="preview" alt="image" />
+                        </a>
+                <!--Photo by freestocks.org on Unsplash-->
+                <!-- <figcaption>Humid</figcaption> -->
+            </figure>
+    </section>
+        
+
+        
+    </main>
+
+    <footer>
+        <h2>Contact Information</h2>
+        <p>30 N 1st E Preston, ID 83326</p>
+        <p># 555 555 5555</p>
+        <p>onedropweather@gmail.com</p>
+        <p class="copyright">
+        &copy; One Drop Weather | Caleb Andrews | <span id="currentDate"></span>
+    </p>
+    </footer>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/wind-chill.js"></script> 
+    <script src="scripts/lazy.js"></script>  
+</body>
+</html>
