@@ -227,3 +227,15 @@ figure a:hover {
 
 /* ------------- FORM STYLES ------------*/
 
+label {
+    display: inline-block;
+    min-width: 125px;
+}
+
+form div {
+    margin-top: 10px;
+}
+
+.align-top {
+    vertical-align: top;
+}

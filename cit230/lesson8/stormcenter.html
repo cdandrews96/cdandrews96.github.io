@@ -34,7 +34,7 @@
         <form action="thanks.html" method="GET">
             <div>
                 <label for="fullName">Full Name:</label>
-                <input type="text" id="fullName" name="fullName" required> <!--This is the most common tag for text boxes-->
+                <input type="text" id="fullName" name="fullName" pattern="[A-Za-z ] {3, }" required> <!--This is the most common tag for text boxes-->
             </div>
 
             <div>
@@ -74,6 +74,45 @@
                         <label for="stormSeverity">Current Date:</label>
                         <input type="range" id="stormSeverity" name="stormSeverity" min="1" max="10">
                     </div>
+
+                <div>
+                    <label for="stormRegion">Region:</label>
+                    
+                    <select name="stormRegion" id="stormRegion">
+                        <option value="" selected disabled>Select Region...</option>
+                        <option value="Preston">Preston</option>
+                        <option value="Sugar City">Sugar City</option>
+                        <option value="Fish Haven">Fish Haven</option>
+                      </select>
+                </div>
+
+                <div>
+                    <span>Are you in danger?</span>
+                    <div>
+                        <input name="danger" id="yes" type="radio" value="Yes">
+                        <label for="yes">Yes</label>
+                    </div>
+
+                    <div>
+                        <input name="danger" id="maybe" type="radio" value="Maybe">
+                        <label for="maybe">Maybe</label>
+                    </div>
+
+                    <div>
+                        <input name="danger" id="no" type="radio" value="No">
+                        <label for="no">No</label>
+                    </div>
+                </div>
+
+                <div>
+                    <div>
+                        <label class="align-top" for="comments">Comments:</label>
+                    </div>
+
+                    <div>
+                        <textarea name="comments" id="comments" cols="40" rows="8"></textarea>
+                    </div>
+                </div>
 
                 <div>
                     <input type="submit" value="submit">
