@@ -239,3 +239,11 @@ form div {
 .align-top {
     vertical-align: top;
 }
+
+form {
+    font-family: Heebo;
+    background-color: #00798c;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+
