@@ -239,3 +239,13 @@ form div {
 .align-top {
     vertical-align: top;
 }
+
+/* ------------- HOME PAGE STYLES ------------*/
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+article h1 {
+    color: black;
+}
