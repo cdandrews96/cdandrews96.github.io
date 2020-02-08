@@ -38,8 +38,8 @@ header img {
 
 /* -------- BODY STYLES ----------*/
 main {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 0 auto;
+    max-width: 85%;
 }
 
 .title {
@@ -51,7 +51,7 @@ main {
 nav {
     border-bottom: 2px solid #F2E313;
     margin: 0 auto;
-    max-width: 760px;
+    max-width: 90%
 }
 
 .navigation {
@@ -90,6 +90,8 @@ nav {
 /* -------- FOOTER STYLES --------*/
 footer {
     border-top: solid 2px #F2E313;
+    max-width: 90%;
+    margin: 0 auto;
 }
 
 footer p {
