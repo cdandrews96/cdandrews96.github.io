@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Heebo&display=swap');
 
+/* ---------MAIN STYLES----------- */
+
 body {
     font-size: 16px;
     line-height: 32px;
@@ -51,3 +53,4 @@ ul {
     margin: 0 auto;
     max-width: 300px;
 }
+
