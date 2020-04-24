@@ -35,6 +35,7 @@ header, footer, footer a {
     text-align: center;
     background-color: rgb(202, 95, 6);
     color: whitesmoke;
+    border-radius: 8px;
 }
 
 header img {
