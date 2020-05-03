@@ -1,18 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Mukta+Vaani:wght@400;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Mukta+Vaani:wght@400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;700&display=swap');
 
 body {
     background-color: #EFF6EE;
-    font-family: sans-serif;
+    font-family : 'Mukta Vaani';
+    font-style : normal;
+    font-weight : 400;
+    font-display : swap;
 }
 
 h1, h2, h3, p {
     font-family: 'Mukta+Vaani', 'sans-serif';
 }
 
-header {
+header, footer {
     background-color: #2F4858;
     padding: 1em;
     color: #EFF6EE;
+    text-align: center;
 }
 
 header h2 {
@@ -23,7 +28,8 @@ section {
     margin: 3.5em;
     border: solid 3px #2F4858;
     border-radius: 30px;
-    padding: 20px;
+    padding: 0 20px 0 20px;
+    background-color: white;
 }
 
 h2 {
@@ -34,4 +40,15 @@ img {
     display: block;
     margin: 0 auto;
     width: 300px;
+    box-shadow: grey 5px 5px 5px;
+}
+
+footer a {
+    color: #EFF6EE;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #F26419;
+    text-decoration: underline;
 }
