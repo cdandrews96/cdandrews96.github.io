@@ -24,6 +24,10 @@ a:hover {
     color: #F2E313;
 }
 
+.active {
+    color: #F2E313 !important;
+}
+
 header {
     background-color: #212026;
     padding: 10px;
@@ -41,6 +45,12 @@ header {
 
 .purpose {
     padding: 3em;
+}
+
+.logo img {
+    background-color: #A3B4BF;
+    padding: 1.5em;
+    border-radius: 20px;
 }
 
 
