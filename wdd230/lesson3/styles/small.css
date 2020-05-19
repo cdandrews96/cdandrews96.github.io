@@ -6,9 +6,10 @@ body {
 }
 
 nav ul {
-    display: flex;
-    justify-content: space-evenly;
+    /* display: flex;
+    justify-content: space-evenly; */
     list-style: none;
+    display: block
 }
 
 a:link {
@@ -68,15 +69,20 @@ header {
 
 .personas h2 {
     color: #F2E313;
+    text-align: center;
 }
 
 .persona-title {
+    grid-column: 1/3;
     color: #F2E313;
+    text-align: center;
 }
 
 .personas img {
+    display: block;
     margin: 0 auto;
     width: 60%;
+    border-radius: 20px;
 }
 
 .scenarios {
