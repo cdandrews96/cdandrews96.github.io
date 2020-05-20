@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;700&display=swap');
+
+body {
+    font-family: 'Cabin Condensed';
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    background-color: #212026;
+    color: #a3b4bf;
+}
+
+header h1 {
+    padding: 10px;
+}
+
+header img {
+    height: 100px;
+    background-color: #a3b4bf;
+    padding: 20px 10px;
+}
+
+nav {
+    
+    padding: 10px 50px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav a:link {
+    color: #a3b4bf;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: #a3b4bf;
+}
+
+nav a:hover {
+    color: #f2e313;
+    font-weight: bold;
+}
+
+nav a:active {
+    color: blue;
+}
+
+/* ----HAMBURGER MENU STYLES---- */
+
+.navigation li:first-child {
+    display: block;
+    text-decoration: underline;
+}
+
+.navigation li {
+    display: none;
+    padding: 3px 0;
+}
+
+.responsive li {
+	display: block;
+}
+
+/* ----END OF STYLES---- */
+
+footer {
+    text-align: center;
+    background-color: #212026;
+    color: #a3b4bf;
+    padding: 20px;
+}
+
+footer a {
+    color: #a3b4bf;
+    text-decoration: none;
+}
