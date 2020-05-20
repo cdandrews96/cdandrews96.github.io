@@ -4,10 +4,19 @@ body {
     font-family: 'Cabin Condensed';
 }
 
-header div {
+header .title {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.title {
+    background-color: #a3b4bf;
+    color: #212026;
+}
+
+.title p {
+    padding: 0 10px;
 }
 
 header {
@@ -16,7 +25,7 @@ header {
 }
 
 header h1 {
-    padding: 10px;
+    padding: 0 10px;
 }
 
 header img {
@@ -53,6 +62,33 @@ nav a:active {
     color: blue;
 }
 
+/* main {
+    margin: 2em;
+} */
+
+.preston {
+    text-align: center;
+}
+
+/* ----HERO IMAGE STYLES---- */
+
+.hero-image {
+    background-color: #212026;
+    border-top: #f2e313 solid 1px;
+    padding-top: 1em;
+}
+
+.hero-image h1 {
+    color: #f2e313;
+    margin-top: 0;
+}
+
+.hero-image img, .article img {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
 /* ----HAMBURGER MENU STYLES---- */
 
 .navigation li:first-child {
@@ -70,6 +106,51 @@ nav a:active {
 }
 
 /* ----END OF STYLES---- */
+
+/* ----ARTICLE STYLES---- */
+
+.article h2 {
+    color: #f2e313;
+    margin: 19.92px 0 5px 0;
+}
+
+.author {
+    margin: 0;
+}
+
+.content {
+    border-top: #f2e313 2px solid;
+    padding-top: 8px;
+}
+
+.article p {
+    color: #a3b4bf;
+}
+
+.article {
+    background-color: #212026;
+    padding: 2em;
+}
+
+/* ----CONTACT INFORMATION STYLES---- */
+
+.contact-list {
+    background-color: #212026;
+    padding: 2em;
+    border-top: #f2e313 3px solid;
+}
+
+.ylw {
+    color: #f2e313 !important;
+}
+
+.contact-list p {
+    color: #a3b4bf;
+}
+
+
+
+/* ----FOOTER STYLES---- */
 
 footer {
     text-align: center;

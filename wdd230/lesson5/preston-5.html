@@ -11,9 +11,12 @@
 </head>
 <body>
     <header>
-        <div>
+        <div class="title">
             <img src="images/viewfinder-forecast-logo.png" alt="Viewfinder Forecast Logo">
-            <h1>View Finder Forecast</h1>
+            <div>
+                <h1>View Finder Forecast</h1>
+                <p>Perfect weather for the perfect photograph.</p>
+            </div>
         </div>
         <nav>
             <ul class="navigation">
@@ -29,28 +32,44 @@
     </header>
     
     <main>
-        <h1>Preston, Idaho</h1>
+        
 
-        <section>
-            <h2>Hero Image</h2>
+        <section class="hero-image">
+            <h1 class="preston">Preston, Idaho</h1>
+            <img src="images/hero-image.jpg" alt="Preston, Idaho">
         </section>
 
-        <section>
+        <!-- <section>
             <h2>5 day forecast</h2>
+        </section> -->
+
+        <section class="article">
+            <h2>Best Outdoor Photography</h2>
+            <p class="author">By John Doe</p>
+            <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla auctor tortor at nisl euismod tempus. Donec pretium convallis lorem mollis tempus. Suspendisse faucibus tincidunt elit in bibendum. Suspendisse commodo diam accumsan turpis placerat elementum. Cras porttitor erat eget dapibus dignissim. Phasellus vel viverra ex, non elementum odio. Sed sed volutpat felis. Pellentesque lobortis mauris id erat auctor volutpat.</p>
+            <p>Mauris lacinia nulla id nisl iaculis, ac faucibus tellus blandit. Sed tempus neque non ipsum placerat efficitur. Suspendisse ut tempor neque, quis pharetra arcu. Ut suscipit egestas ante, porta finibus turpis tempus sed.</p>
+            <img src="images/article-image.jpg" alt="Article Image">
         </section>
 
-        <section>
-            <h2>Article</h2>
-        </section>
+        <section class="contact-list">
+            <div class="contact">
+                <p><span class="ylw">Phone:</span> 555-5389</p>
+                <p><span class="ylw">Address:</span> Preston, Idaho</p>
+                <p><span class="ylw">E-Mail:</span> viewfinderforecast@gmail.com</p>
+            </div>
+            <div class="social-media">
+                <p class="ylw">Facebook</p>
+                <p class="ylw">Instagram</p>
+                <p class="ylw">YouTube</p>
+            </div>
 
-        <section>
-            <h2>Contact information</h2>
+            <p>google maps</p>
         </section>
 
     </main>
     <footer>
         <p>&copy; <span id="currentYear"></span> | Caleb Andrews | <a href="https://www.byui.edu" target="_blank">BYU-Idaho</a></p>
-        <p>Last Modified: <span id="currentdate"></span></p>
+        <p><span id="currentdate"></span></p>
     </footer>
 
     <script src="script/currentDate.js"></script>
