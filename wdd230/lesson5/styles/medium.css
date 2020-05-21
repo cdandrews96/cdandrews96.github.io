@@ -11,5 +11,13 @@
     
     .navigation li:first-child {
 		display: none;
-	}
+    }
+
+    main {
+      padding: 0 8rem;
+    }
+
+    .forecast {
+      display: block;
+    }
 }

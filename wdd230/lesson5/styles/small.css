@@ -4,6 +4,10 @@ body {
     font-family: 'Cabin Condensed';
 }
 
+#friday {
+    display: none;
+}
+
 header .title {
     display: flex;
     align-items: center;
@@ -62,9 +66,9 @@ nav a:active {
     color: blue;
 }
 
-/* main {
-    margin: 2em;
-} */
+main {
+    background-color: #212026;
+}
 
 .preston {
     text-align: center;
@@ -89,6 +93,26 @@ nav a:active {
     display: block;
 }
 
+.herodiv {
+    margin: 5px auto;
+    position: relative;
+}
+
+.stats {
+    position: absolute;
+    top: 25px;
+    right: 50px;
+    background: radial-gradient(#eee, #a3b4bf);
+    border: 1px solid #000;
+    padding: 1rem;
+    box-shadow: 0 0 30px #111;
+    opacity: .8;
+}
+
+.stats p {
+    margin: 3px 0;
+}
+
 /* ----HAMBURGER MENU STYLES---- */
 
 .navigation li:first-child {
@@ -106,6 +130,10 @@ nav a:active {
 }
 
 /* ----END OF STYLES---- */
+
+.forecast {
+    display: none;
+}
 
 /* ----ARTICLE STYLES---- */
 
@@ -138,6 +166,8 @@ nav a:active {
     background-color: #212026;
     padding: 2em;
     border-top: #f2e313 3px solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .ylw {
