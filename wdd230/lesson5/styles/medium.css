@@ -20,4 +20,12 @@
     .forecast {
       display: block;
     }
+
+    /* Forecast Styles */
+
+    .forecast h2 {
+      color: #a3b4bf;
+      text-align: center;
+    }
+
 }
