@@ -3,3 +3,5 @@ let monthDay = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 
 let myDate = new Date();
 let weekName = weekDay [myDate.getDay()];
 let monthName = monthDay [myDate.getMonth()];
+
+var dayofWeek = {}
