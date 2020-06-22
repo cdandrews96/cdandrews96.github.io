@@ -22,3 +22,7 @@ img {
     filter: blur(0em);
     transition: filter .5s;
 }
+
+footer {
+    margin-top: 500px;
+}
