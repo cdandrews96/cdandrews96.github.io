@@ -248,3 +248,64 @@ footer a {
   .gallery-images img {
     filter: blur(0em);
     transition: filter 0.5s;
+  }
+
+  /* ----------------------------------------------
+   ----------------------------------------------
+                STORM CENTER STYLES
+   ----------------------------------------------
+   ---------------------------------------------- */
+
+   .storm-center h1 {
+       text-align: center;
+       padding-top: 1em;
+   }
+
+   .storm-center div {
+       background-color: #a3b4bf;
+       padding-bottom: 1em;
+   }
+   
+   form {
+       margin: 2em;
+   }
+
+   legend {
+       padding: .5em;
+       color: #f2e313;
+       font-size: 2em;
+   }
+
+   .personal-info, .storm-info {
+       border: 5px solid #212026;
+       border-radius: 10px;
+       padding-left: 1.8em;
+       padding-bottom: 40px;
+   }
+
+   .info, select {
+       display: block;
+   }
+
+   select {
+       width: 50%;
+   }
+
+   .info {
+       font-size: 1.3rem;
+       padding-top: 15px;
+       padding-bottom: 1px;
+       color: #44424f;
+       padding: 6px;
+       width: 90%;
+   }
+
+   /* input {
+       padding: 6px;
+       width: 90%;
+   } */
+
+   #rating {
+       padding: 0;
+   }
+
