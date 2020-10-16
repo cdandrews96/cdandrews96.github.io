@@ -69,6 +69,12 @@ nav a:active {
 	display: block;
 }
 
+/* ----BODY---- */
+
+main {
+    margin: 0 3em;
+}
+
 /* ----END OF STYLES---- */
 
 footer {

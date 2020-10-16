@@ -11,5 +11,9 @@
     
     .navigation li:first-child {
 		display: none;
-	}
+    }
+
+    main {
+      margin: 0 0 0 20em;
+    }
 }
