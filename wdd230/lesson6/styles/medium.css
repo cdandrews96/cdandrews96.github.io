@@ -23,9 +23,36 @@
 
     /* Forecast Styles */
 
-    .forecast h2 {
-      color: #a3b4bf;
-      text-align: center;
+    .forecast {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
+
+    .forecast div {
+      border: 2px solid #f2e313;
+    }
+
+    .forecast h4 {
+      background-color: #f2e313;
+      text-align: center;
+      margin: 0;
+      padding: 5px 0;
+      color: #212026;
+    }
+
+    .forecast p {
+      text-align: center;
+      color: #a3b4bf;
+    }
+
+    .forecast img {
+      display: block;
+      color: #a3b4bf;
+      margin: 0 auto;
+    }
+
+    /* CONTACT INFORMATION STYLES */
+
+
 
 }
