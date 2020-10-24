@@ -159,7 +159,7 @@ main {
     color: #a3b4bf;
 }
 
-.article {
+.article, .forecast {
     background-color: #212026;
     padding: 2em;
 }
