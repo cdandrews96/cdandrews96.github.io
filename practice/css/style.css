@@ -1,3 +1,46 @@
-.newstyle {
-    background-color: red;
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;700&display=swap');
+
+body {
+    background-color: #cfdee7;
+    font-family: 'Cabin Condensed';
+}
+
+main, header {
+    margin: 2em;
+}
+
+header {
+    padding-left: 1em;
+}
+
+main section {
+    border-bottom: 2px solid black;
+    padding: 1em;
+}
+
+main p {
+    text-align: center;
+    font-size: .75em;
+    color: white;
+}
+
+main div {
+    background-color: tomato;
+    padding: 10px;
+    width: 250px;
+    height: 200px;
+}
+
+/* ---- EXAMPLE STYLES ---- */
+
+.round-corner {
+    border-radius: 50px;
+}
+
+.border {
+    border: 25px solid black;
+}
+
+.box-shadow {
+    box-shadow: 10px 10px 5px grey;
 }

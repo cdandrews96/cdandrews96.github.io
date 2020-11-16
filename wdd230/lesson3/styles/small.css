@@ -44,14 +44,25 @@ header {
     color: #A3B4BF;
 }
 
+.logo h1 {
+    text-align: center;
+    color: #F2E313;
+}
+
+.logo p {
+    margin: 1em 10em;
+}
+
 .purpose {
     padding: 3em;
 }
 
 .logo img {
+    display: block;
     background-color: #A3B4BF;
     padding: 1.5em;
     border-radius: 20px;
+    margin: 0 auto;
 }
 
 
