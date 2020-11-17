@@ -315,3 +315,13 @@ footer a {
        padding: 0;
    }
 
+   .thanks {
+       padding: 5em;
+       border-top: 2px solid #f2e313;
+   }
+
+   .thanks h1 {
+       text-align: center;
+       color: #f2e313;
+   }
+
