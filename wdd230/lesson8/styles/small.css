@@ -289,6 +289,7 @@ footer a {
 
    select {
        width: 50%;
+       border-radius: 10px;
    }
 
    .info {
@@ -298,12 +299,17 @@ footer a {
        color: #44424f;
        padding: 6px;
        width: 90%;
+       border-radius: 10px
    }
 
    /* input {
        padding: 6px;
        width: 90%;
    } */
+
+   textarea {
+       border-radius: 10px;
+   }
 
    #rating {
        padding: 0;
