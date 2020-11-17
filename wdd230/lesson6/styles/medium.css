@@ -1,4 +1,4 @@
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 40em) {
     .navigation {
         display: flex;
         justify-content: space-evenly;
@@ -38,7 +38,7 @@
 
     /* END OF ARTICLE */
 
-    main {
+    .alignment {
       padding: 0 8rem;
     }
 
