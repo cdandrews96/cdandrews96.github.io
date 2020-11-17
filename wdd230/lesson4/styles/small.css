@@ -53,6 +53,10 @@ nav a:active {
     color: blue;
 }
 
+.active {
+    color: #f2e313 !important;
+}
+
 /* ----HAMBURGER MENU STYLES---- */
 
 .navigation li:first-child {
