@@ -1,4 +1,4 @@
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 40em) {
     .navigation {
         display: flex;
         justify-content: space-evenly;
@@ -13,12 +13,16 @@
 		display: none;
     }
 
-    main {
+    /* main {
       padding: 0 8rem;
-    }
+    } */
 
     .forecast {
       display: block;
+    }
+
+    .alignment {
+      padding: 0 8rem;
     }
 
     /* Forecast Styles */
@@ -26,6 +30,41 @@
     .forecast h2 {
       color: #a3b4bf;
       text-align: center;
+    }
+
+    /* Forecast Styles */
+
+    .forecast {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .forecast h2 {
+      color: #f2e313;
+      grid-column: 1/6;
+    }
+
+    .forecast div {
+      border: 2px solid #f2e313;
+    }
+
+    .forecast h3 {
+      background-color: #f2e313;
+      text-align: center;
+      margin: 0;
+      padding: 5px 0;
+      color: #212026;
+    }
+
+    .forecast p {
+      text-align: center;
+      color: #a3b4bf;
+    }
+
+    .forecast img {
+      display: block;
+      color: #a3b4bf;
+      margin: 0 auto;
     }
 
     /* ------------------------------------------------------
@@ -49,9 +88,9 @@
           background-color: #212026;
         }
 
-        .storm-center div {
+        /* .storm-center div {
           border-radius: 20px;
-        }
+        } */
 
         .personal-info, .storm-info {
           margin: 0 8em;
