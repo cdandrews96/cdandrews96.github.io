@@ -352,3 +352,11 @@ footer a {
       width: 100%;
   }
 
+  .wireframes {
+      color: #f2e313;
+  }
+
+  .wireframes:hover {
+      border-bottom: 1px solid #f2e313;
+  }
+
