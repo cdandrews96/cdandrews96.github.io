@@ -325,3 +325,30 @@ footer a {
        color: #f2e313;
    }
 
+     /* ----------------------------------------------
+   ----------------------------------------------
+                HOME PAGE STYLES
+   ----------------------------------------------
+   ---------------------------------------------- */
+
+   .cards {
+       margin: 2em;
+   }
+
+   .cards section {
+    border: 2px solid #f2e313;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 1em;
+    text-align: center;
+    color: #a3b4bf;
+  }
+
+  .cards section h3 {
+      color: #f2e313;
+  }
+
+  .cards section img {
+      width: 100%;
+  }
+
