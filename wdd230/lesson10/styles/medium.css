@@ -17,7 +17,7 @@
       padding: 0 8rem;
     } */
 
-    .forecast {
+    #forecast {
       display: block;
     }
 
@@ -27,28 +27,28 @@
 
     /* Forecast Styles */
 
-    .forecast h2 {
+    #forecast h2 {
       color: #a3b4bf;
       text-align: center;
     }
 
     /* Forecast Styles */
 
-    .forecast {
+    #forecast {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
 
-    .forecast h2 {
+    #forecast h2 {
       color: #f2e313;
       grid-column: 1/6;
     }
 
-    .forecast div {
+    #forecast div {
       border: 2px solid #f2e313;
     }
 
-    .forecast h3 {
+    #forecast h3 {
       background-color: #f2e313;
       text-align: center;
       margin: 0;
@@ -56,12 +56,12 @@
       color: #212026;
     }
 
-    .forecast p {
+    #forecast p {
       text-align: center;
       color: #a3b4bf;
     }
 
-    .forecast img {
+    #forecast img {
       display: block;
       color: #a3b4bf;
       margin: 0 auto;
