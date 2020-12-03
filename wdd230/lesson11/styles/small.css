@@ -214,7 +214,7 @@ footer a {
        padding: 1em 0;
    }
 
-   picture img {
+   .gallery-images img {
        width: 100%;
        margin: 0 auto;
        display: block;
@@ -331,6 +331,10 @@ footer a {
    ----------------------------------------------
    ---------------------------------------------- */
 
+   /* .home {
+       margin: 2em;
+   } */
+
    .cards {
        margin: 2em;
    }
@@ -360,3 +364,30 @@ footer a {
       border-bottom: 1px solid #f2e313;
   }
 
+  .home-article {
+      margin: 3em;
+  }
+
+  .home-article p {
+      text-align: justify;
+  }
+
+  .home-article img {
+      width: 100%;
+      display: block;
+      margin: 0 auto;
+  }
+
+  .home-article h2 {
+      color: #f2e313;
+  }
+
+  .home-article h3 {
+      font-weight: bold;
+      color: #7d8991;
+
+  }
+
+  .home-article p {
+      color: #7d8991;
+  }
