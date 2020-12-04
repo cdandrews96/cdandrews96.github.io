@@ -279,7 +279,11 @@ footer a {
 
    .storm-center h1 {
        text-align: center;
+       padding-bottom: 1em;
        padding-top: 1em;
+       background-color: #212026;
+       color: #f2e313;
+       border-top: #f2e313 solid 2px;
    }
 
    .storm-center div {
