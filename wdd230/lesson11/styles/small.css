@@ -165,6 +165,27 @@ main {
     padding: 2em;
 }
 
+/* ----UPCOMING EVENTS STYLES---- */
+
+.events {
+    text-align: center;
+    margin: 2em;
+}
+
+.events h2 {
+    color: #f2e313;
+}
+
+.events p {
+    color: #a3b4bf;
+}
+
+.events div {
+    border: #f2e313 3px solid;
+    margin: 0 4em;
+    border-radius: 5px;
+}
+
 /* ----CONTACT INFORMATION STYLES---- */
 
 .contact-list {
