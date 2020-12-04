@@ -235,6 +235,19 @@ footer a {
        padding: 1em 0;
    }
 
+   .gallery-title {
+       text-align: center;
+       color: #f2e313;
+       border-top: #f2e313 solid 2px;
+       padding-top: .5em;
+   }
+
+   .gallery-main h1 {
+       text-align: center;
+       color: #f2e313;
+       background-color: #212026;
+   }
+
    .gallery-images img {
        width: 100%;
        margin: 0 auto;
