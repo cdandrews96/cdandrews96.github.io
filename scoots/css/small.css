@@ -6,7 +6,7 @@
    White - #fff
 */
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, ul {
     font-family: 'Archivo', sans-serif;
 }
 
@@ -19,8 +19,10 @@ p {
 } */
 
 header, .current-weather, .contact-info, .site-footer {
-    margin: 1.5em;
+    margin: 2.5em;
 }
+
+/* --HEADER STYLES-- */
 
 header {
     display: grid;
@@ -56,18 +58,27 @@ header h2 {
     margin-top: 0;
 }
 
+/* --HERO IMAGE STYLES-- */
+
 .heroDiv img {
     display: block;
     margin: 0 auto;
     width: 100%;
 }
 
-.heroDiv section {
+.summary {
+    position: relative;
+    bottom: 100px;
     margin: 2.5em;
     border: black solid 3px;
     border-radius: 10px;
+    box-shadow: 3px 3px 8px grey;
+    background-color: white;
     padding: 10px 20px;
+    margin-bottom: 0;
 }
+
+/* --CALL TO ACTION STYLES-- */
 
 .call-to-action {
     border: #e94f37 solid 3px;
@@ -92,7 +103,11 @@ header h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    bottom: 40px;
 }
+
+/* --CURRENT WEATHER STYLES-- */
 
 .current {
     border: #0b4f6c solid 3px;
@@ -113,6 +128,8 @@ header h2 {
     display: none;
 }
 
+/* --SOCIAL MEDIA SYTLES-- */
+
 .social-media h1 {
     text-align: center;
     color: #0b4f6c;
@@ -126,6 +143,8 @@ header h2 {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+/* --FOOTER STYLES-- */
 
 footer {
     background-color: #0b4f6c;
