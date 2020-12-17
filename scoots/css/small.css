@@ -36,6 +36,18 @@ header {
     grid-column: 2/3;
 }
 
+.nav li:first-child {
+    display: block;
+}
+
+.nav li {
+    display: none;
+}
+
+.responsive li {
+    display: block;
+}
+
 .logo {
     width: 50px;
 }
