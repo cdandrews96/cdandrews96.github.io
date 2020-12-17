@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Raleway&display=swap');
+
+
+/* Blue - #0b4f6c
+   Orange - #e94f37 
+   White - #fff
+*/
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Archivo', sans-serif;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* body {
+    margin: 1.5em;
+} */
+
+header, .current-weather, .contact-info, .site-footer {
+    margin: 1.5em;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.scoots {
+    grid-column: 1/2;
+    text-align: center;
+}
+
+.navigation {
+    grid-column: 2/3;
+}
+
+.logo {
+    width: 50px;
+}
+
+header h2 {
+    margin-top: 0;
+}
+
+.heroDiv img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.heroDiv section {
+    margin: 2.5em;
+    border: black solid 3px;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.call-to-action {
+    border: #e94f37 solid 3px;
+    background-color: #e94f37;
+    font-family: 'Archivo', sans-serif;
+    color: white;
+    padding: 10px 20px;
+    font-size: 2rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px grey;
+    margin: 0 auto;
+}
+
+.call-to-action:hover {
+    background-color: white;
+    color: black;
+    border: #e94f37 solid 3px;
+    transition-duration: 0.3s;
+}
+
+.centerB {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.current {
+    border: #0b4f6c solid 3px;
+    padding: 1em;
+    background-color: #0b4f6c;
+    border-radius: 10px;
+}
+
+.current h2 {
+    color: #f6f7eb;
+}
+
+.current p {
+    color: white;
+}
+
+.three-day {
+    display: none;
+}
+
+.social-media h1 {
+    text-align: center;
+    color: #0b4f6c;
+}
+
+.social {
+    width: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #0b4f6c;
+    color: white;
+}
+
+footer img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 1em;
+    width: 100px;
+}
+
+footer h2 {
+    text-align: center;
+    margin-top: 0;
+    color: #f6f7eb;
+}
+
+.site-footer {
+    text-align: center;
+    padding-bottom: 1em;
+    margin-bottom: 0;
+}
+
+.bold {
+    font-weight: bold;
+}

@@ -242,6 +242,8 @@ footer a {
        padding-top: .5em;
    }
 
+   p::first-letter
+
    .gallery-main h1 {
        text-align: center;
        color: #f2e313;
