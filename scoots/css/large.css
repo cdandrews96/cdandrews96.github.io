@@ -1,0 +1,26 @@
+@media only screen and (min-width: 60em) {
+    header, .current-weather, .contact-info, .site-footer, .social-media {
+        margin: 10em;
+    }
+
+    header {
+        margin: 1em 10em;
+    }
+
+    .summary {
+        margin: 0 10em;
+    }
+
+    .site-footer {
+        margin-bottom: 0;
+    }
+
+    .social-media {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .social-media h1 {
+        grid-column: 1/5;
+    }
+}

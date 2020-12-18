@@ -26,7 +26,8 @@ header, .current-weather, .contact-info, .site-footer {
 
 header {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 100px 1fr;
+    margin: 1em 2.5em;
 }
 
 .scoots {
@@ -44,6 +45,17 @@ header {
 
 .nav li {
     display: none;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    color: #e94f37;
+    text-decoration: underline;
 }
 
 .responsive li {
@@ -109,11 +121,15 @@ header h2 {
 
 /* --CURRENT WEATHER STYLES-- */
 
-.current {
+.current-weather {
     border: #0b4f6c solid 3px;
     padding: 1em;
     background-color: #0b4f6c;
     border-radius: 10px;
+}
+
+.current {
+    padding: 1em;
 }
 
 .current h2 {
@@ -121,11 +137,17 @@ header h2 {
 }
 
 .current p {
-    color: white;
+    color: #f6f7eb;
 }
 
 .three-day {
     display: none;
+    color: #f6f7eb;
+    text-align: center;
+}
+
+.three-day div {
+    border: #f6f7eb solid 3px;
 }
 
 /* --SOCIAL MEDIA SYTLES-- */
