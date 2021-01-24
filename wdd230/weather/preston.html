@@ -32,14 +32,18 @@
         <section class="hero-image">
             <h1 class="preston">Preston, Idaho</h1>
             <div class="herodiv">
-                <img src="images/hero-image.jpg" alt="Preston, Idaho">
+                <picture>
+                    <source srcset="images/franklinOriginal-1200w.jpg" media="(min-width: 900px)">
+                    <source srcset="images/franklinOriginal-900w.jpg" media="(min-width: 520px)">
+                    <img src="images/franklinOriginal-450w.jpg" alt="Franklin, Idaho">
+                </picture>
                 <section class="stats">
                     <h2>Weather Summary</h2>
-                    <p>Currently:</p>
-                    <p>High:</p>
-                    <p>Wind Chill:</p>
-                    <p>Humidity:</p>
-                    <p>Wind Speed:</p>
+                    <p>Currently: 55 &deg;</p>
+                    <p>High: 60 &deg;</p>
+                    <p>Wind Chill: <span id="wind-chill"></span>&deg;</p>
+                    <p>Humidity: 20%</p>
+                    <p>Wind Speed: 5mph</p>
                 </section>
             </div>
         </section>
@@ -108,5 +112,6 @@
     <script src="js/currentDate.js"></script>
     <script src="js/lastModified.js"></script>
     <script src="js/responsiveMenu.js"></script>
+    <script src="js/windchill.js"></script>
 </body>
 </html>
