@@ -11,6 +11,7 @@ header div {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 header {
@@ -18,7 +19,7 @@ header {
     color: #a3b4bf;
 }
 
-header h1 {
+header h3 {
     padding: 10px;
 }
 
