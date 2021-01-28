@@ -89,8 +89,30 @@ nav a:active {
 } */
 
 .five-day-forecast {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .fiveday {
+    grid-column: 1/4;
+  }
+
+  .five-day-forecast div {
+    text-align: center;
+    border: 3px solid #0C2659;
+  }
+
+  .thursday {
+      grid-column: 1/2;
+  }
+
+  .friday {
+      grid-column: 3/4;
+  }
+
+/* .five-day-forecast {
     display: none;
-}
+} */
 
 .main-content {
     margin: 1em;
@@ -149,4 +171,9 @@ footer a {
 
 footer div {
     text-align: left;
+}
+
+.google-maps {
+    width: 450px;
+    margin: 0 auto;
 }
