@@ -48,7 +48,7 @@ nav a:link {
 }
 
 nav a:visited {
-    color: #a3b4bf;
+    color: #0C2659;
 }
 
 nav a:hover {
@@ -176,4 +176,53 @@ footer div {
 .google-maps {
     width: 450px;
     margin: 0 auto;
+}
+
+/* ======================================================
+   ======================================================
+                    GALLERY STYLES
+   ======================================================
+   ====================================================== */
+
+   .gallery-main {
+    background-color: white;
+    padding: 1em 0;
+    margin: 1em;
+    border-radius: 10px;
+}
+
+picture img {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px 10px 0px 0px;
+}
+
+picture {
+    padding: 1em 0;
+}
+
+.gallery-images {
+    margin: 1em 0;
+}
+
+figure {
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #7d8991;
+}
+
+figcaption {
+    color: #212026;
+    padding-left: 1em;
+    padding-top: .2em;
+    padding-bottom: .2em;
+}
+
+.gallery-images img[data-src] {
+ filter: blur(0.2em);
+}
+
+.gallery-images img {
+ filter: blur(0em);
+ transition: filter 0.5s;
 }

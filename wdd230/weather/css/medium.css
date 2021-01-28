@@ -46,7 +46,8 @@
       grid-column: 1/3;
     }
 
-    iframe {
-
+    .gallery-main {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
     }
 }
