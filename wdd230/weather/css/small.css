@@ -52,7 +52,7 @@ nav a:visited {
 }
 
 nav a:hover {
-    color: #f2e313;
+    color: #f2d06c;
     font-weight: bold;
 }
 
@@ -61,7 +61,7 @@ nav a:active {
 }
 
 .active {
-    color: #f2e313 !important;
+    color: #f2d06c !important;
 }
 
 /* ----HAMBURGER MENU STYLES---- */
@@ -229,4 +229,81 @@ figcaption {
 
 figcaption {
     display: none;
+}
+
+/* ======================================================
+   ======================================================
+                    STORM CENTER STYLES
+   ======================================================
+   ====================================================== */
+
+   .storm-center h1 {
+    text-align: center;
+    padding-top: 1em;
+}
+
+.storm-center div {
+    background-color: white;
+    padding-bottom: 1em;
+    margin: 2em;
+    border-radius: 10px;
+}
+
+form {
+    margin: 4em;
+}
+
+legend {
+    padding: .5em;
+    color: #f2d06c;
+    font-size: 2em;
+}
+
+.personal-info, .storm-info {
+    border: 5px solid #212026;
+    border-radius: 10px;
+    padding-left: 1.8em;
+    padding-bottom: 40px;
+}
+
+.info, select {
+    display: block;
+}
+
+select {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.info {
+    font-size: 1.3rem;
+    padding-top: 15px;
+    padding-bottom: 1px;
+    color: #44424f;
+    padding: 6px;
+    width: 90%;
+    border-radius: 10px
+}
+
+/* input {
+    padding: 6px;
+    width: 90%;
+} */
+
+textarea {
+    border-radius: 10px;
+}
+
+#rating {
+    padding: 0;
+}
+
+.thanks {
+    padding: 5em;
+    border-top: 2px solid #f2d06c;
+}
+
+.thanks h1 {
+    text-align: center;
+    color: #f2d06c;
 }
