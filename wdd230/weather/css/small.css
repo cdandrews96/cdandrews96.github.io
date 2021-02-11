@@ -90,24 +90,17 @@ nav a:active {
 
 .five-day-forecast {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 
-  .fiveday {
-    grid-column: 1/4;
+  .title {
+      grid-column: 1/2;
   }
 
   .five-day-forecast div {
     text-align: center;
     border: 3px solid #0C2659;
-  }
-
-  .thursday {
-      grid-column: 1/2;
-  }
-
-  .friday {
-      grid-column: 3/4;
+    grid-column: 1/2;
   }
 
 /* .five-day-forecast {
@@ -319,7 +312,7 @@ textarea {
 }
 
 .cards section {
- border: 2px solid #f2e313;
+ border: 2px solid #f2d06c;
  border-radius: 5px;
  margin-bottom: 20px;
  padding: 1em;
@@ -328,7 +321,7 @@ textarea {
 }
 
 .cards section h3 {
-   color: #f2e313;
+   color: #f2d06c;
 }
 
 .cards section img {
@@ -336,9 +329,9 @@ textarea {
 }
 
 .wireframes {
-   color: #f2e313;
+   color: #f2d06c;
 }
 
 .wireframes:hover {
-   border-bottom: 1px solid #f2e313;
+   border-bottom: 1px solid #f2d06c;
 }

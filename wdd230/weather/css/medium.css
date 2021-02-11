@@ -13,27 +13,35 @@
 		display: none;
     }
 
-    /* main {
-      margin: 0 1em;
-      padding: 0 0 0 10em;
-    } */
-
-    .five-day-forecast {
-      display: block;
-    }
-
     .five-day-forecast {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    }
-
-    .fiveday {
-      grid-column: 1/6;
+      grid-template-rows: 1fr;
     }
 
     .five-day-forecast div {
       text-align: center;
       border: 3px solid #0C2659;
+    }
+
+    .five-day-forecast div:nth-child(1) {
+      grid-column: 1/2;
+    }
+
+    .five-day-forecast div:nth-child(2) {
+      grid-column: 2/3;
+    } 
+
+    .five-day-forecast div:nth-child(3) {
+      grid-column: 3/4;
+    }
+
+    .five-day-forecast div:nth-child(4) {
+      grid-column: 4/5;
+    }
+
+    .five-day-forecast div:nth-child(5) {
+      grid-column: 5/6;
     }
 
     footer section {

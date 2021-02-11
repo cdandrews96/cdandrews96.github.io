@@ -23,7 +23,7 @@
         <nav>
             <ul class="navigation">
                 <li><a class="ham" href="#">&#9776; Menu</a></li>
-                <li><a href="#">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a class="active" href="preston.html">Preston</a></li>
                 <li><a href="#">Soda Springs</a></li>
                 <li><a href="#">Fish Haven</a></li>
@@ -39,40 +39,40 @@
             <h1 class="preston">Preston, Idaho</h1>
             <div class="herodiv">
                 <picture>
-                    <source srcset="images/franklinOriginal-1200w.jpg" media="(min-width: 900px)">
-                    <source srcset="images/franklinOriginal-900w.jpg" media="(min-width: 520px)">
-                    <img src="images/franklinOriginal-450w.jpg" alt="Franklin, Idaho">
+                    <source srcset="images/prestonPage-1200w.jpg" media="(min-width: 900px)">
+                    <source srcset="images/prestonPage-900w.jpg" media="(min-width: 520px)">
+                    <img src="images/prestonPage-450w.jpg" alt="Franklin, Idaho">
                 </picture>
                 <section class="stats">
                     <h2>Weather Summary</h2>
-                    <p>Currently: 55 &deg;</p>
-                    <p>High: 60 &deg;</p>
-                    <p>Wind Chill: <span id="wind-chill"></span>&deg;</p>
-                    <p>Humidity: 20%</p>
-                    <p>Wind Speed: 5mph</p>
+                    <p>Currently: <span id="currentWeather"></span></p>
+                    <p>High: <span id="tempHigh"></span>&deg;F</p>
+                    <p>Wind Chill: <span id="wind-chill"></span>&deg;F</p>
+                    <p>Humidity: <span id="humidity"></span>%</p>
+                    <p>Wind Speed: <span id="windSpeed"></span>mph</p>
                 </section>
             </div>
         </section>
             
         <section class="main-content">
-        
-        <section class="five-day-forecast">
 
             <h2 class="title fiveday">5 Day Forecast</h2>
+        
+        <section class="five-day-forecast" id="forecast">
 
-                <div>
+                <!-- <div class="monday">
                     <h3>Monday</h3>
                     <img src="images/sun-icon.png" alt="Sunny Icon">
                     <p>55 &deg;F</p>
                 </div>
 
-                <div>
+                <div class="tuesday">
                     <h3>Tuesday</h3>
                     <img src="images/sun-icon.png" alt="Sunny Icon">
                     <p>55 &deg;F</p>
                 </div>
 
-                <div>
+                <div class="wednesday">
                     <h3>Wednesday</h3>
                     <img src="images/sun-icon.png" alt="Sunny Icon">
                     <p>55 &deg;F</p>
@@ -84,11 +84,11 @@
                     <p>55 &deg;F</p>
                 </div>
 
-                <div class="Friday">
+                <div class="friday">
                     <h3>Friday</h3>
                     <img src="images/sun-icon.png" alt="Sunny Icon">
                     <p>55 &deg;F</p>
-                </div>
+                </div> -->
         </section>
 
         <section>
@@ -119,5 +119,7 @@
     <script src="js/lastModified.js"></script>
     <script src="js/responsiveMenu.js"></script>
     <script src="js/windchill.js"></script>
+    <script src="js/weatherToday.js"></script>
+    <script src="js/fiveDayForecast.js"></script>
 </body>
 </html>
