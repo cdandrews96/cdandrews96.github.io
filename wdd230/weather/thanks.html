@@ -1,0 +1,63 @@
+]<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preston Town Home Page</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <header>
+        <div>
+            <picture>
+                <img src="images/logo.png" alt="Pedal Weather Logo">
+            </picture>
+            <section class="headings">
+                <h1>Pedal Weather</h1>
+                <h3><i>We provide the weather so you can pedal.</i></h3>
+            </section>
+        </div>
+        <nav>
+            <ul class="navigation">
+                <li><a class="ham" href="#">&#9776; Menu</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="preston.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a class="active"  href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery-7.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="storm-center">
+
+        <section class="thanks">
+            <h1>Thank you for filling out our form! Assistance will be provided soon.</h1>
+        </section>
+
+    </main>
+    <footer>
+        <section>
+            <h2>Contact Information</h2>
+            <div class="contact">
+                <p>E-mail: pedalweather@gmail.com</p>
+                <p>Phone: 555-9273</p>
+            </div>
+
+            <img class="google-maps" src="images/preston-google-maps.png" alt="google maps image">
+        </section>
+
+        <p>&copy; <span id="currentYear"></span> | Caleb Andrews | <a href="https://www.byui.edu" target="_blank">BYU-Idaho</a></p>
+        <p>Last Modified: <span id="currentdate"></span></p>
+    </footer>
+
+    <script src="js/currentDate.js"></script>
+    <script src="js/lastModified.js"></script>
+    <script src="js/responsiveMenu.js"></script>
+    <script src="js/windchill.js"></script>
+</body>
+</html>

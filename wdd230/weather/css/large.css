@@ -16,4 +16,8 @@
        figcaption {
         display: block;
     }
+
+    .personal-info, .storm-info {
+        margin: 0 10em;
+      }
 }
