@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner&family=Lexend+Deca&display=swap');
+
+body {
+    font-family: 'Lexend Deca';
+    background-color: #0C2659;
+}
+
+/* =========== Header Styles ============= */
+
+header div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+header {
+    background-color: #0C2659;
+    color: #a3b4bf;
+}
+
+header h3 {
+    padding: 10px;
+}
+
+header img {
+    height: 100px;
+    background-color: #a3b4bf;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+nav {
+    background-color: #a3b4bf;
+    padding: 10px 50px;
+    margin-top: 5px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    color: #0C2659;
+}
+
+nav a:link {
+    color: #0C2659;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: #0C2659;
+}
+
+nav a:hover {
+    color: #f2d06c;
+    font-weight: bold;
+}
+
+nav a:active {
+    color: blue;
+}
+
+.active {
+    color: #f2d06c !important;
+}
+
+/* ----HAMBURGER MENU STYLES---- */
+
+.navigation li:first-child {
+    display: block;
+    text-decoration: underline;
+}
+
+.navigation li {
+    display: none;
+    padding: 3px 0;
+}
+
+.responsive li {
+	display: block;
+}
+
+/* ========= End of Header Styles ============ */
+
+/* ----BODY---- */
+
+/* main {
+    margin: 0 3em;
+} */
+
+.five-day-forecast {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .title {
+      grid-column: 1/2;
+  }
+
+  .five-day-forecast div {
+    text-align: center;
+    border: 3px solid #0C2659;
+    grid-column: 1/2;
+  }
+
+/* .five-day-forecast {
+    display: none;
+} */
+
+.main-content {
+    margin: 1em;
+    padding: 1em;
+    border-radius: 10px;
+    background-color: white;
+}
+
+/* ======= Hero Image Styles ======= */
+
+.preston {
+    text-align: center;
+    color: #a3b4bf;
+}
+
+.hero-image img {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.herodiv {
+    margin: 5px auto;
+    position: relative;
+}
+
+.stats {
+    position: absolute;
+    top: 25px;
+    right: 50px;
+    background: radial-gradient(#eee, #a3b4bf);
+    border: 1px solid #000;
+    padding: 1rem;
+    box-shadow: 0 0 30px #111;
+    opacity: .8;
+}
+
+.stats p {
+    margin: 3px 0;
+}
+
+/* ======= End Of Hero Image Styles ======= */
+
+/* ----END OF STYLES---- */
+
+footer {
+    text-align: center;
+    background-color: #0C2659;
+    color: #a3b4bf;
+    padding: 20px;
+}
+
+footer a {
+    color: #a3b4bf;
+    text-decoration: none;
+}
+
+footer div {
+    text-align: left;
+}
+
+.google-maps {
+    width: 450px;
+    margin: 0 auto;
+}
+
+/* ======================================================
+   ======================================================
+                    GALLERY STYLES
+   ======================================================
+   ====================================================== */
+
+   .gallery-main {
+    background-color: white;
+    padding: 1em 0;
+    margin: 1em;
+    border-radius: 10px;
+}
+
+picture img {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px 10px 0px 0px;
+}
+
+picture {
+    padding: 1em 0;
+}
+
+.gallery-images {
+    margin: 1em 0;
+}
+
+figure {
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #7d8991;
+}
+
+figcaption {
+    color: #212026;
+    padding-left: 1em;
+    padding-top: .2em;
+    padding-bottom: .2em;
+}
+
+.gallery-images img[data-src] {
+ filter: blur(0.2em);
+}
+
+.gallery-images img {
+ filter: blur(0em);
+ transition: filter 0.5s;
+}
+
+figcaption {
+    display: none;
+}
+
+/* ======================================================
+   ======================================================
+                    STORM CENTER STYLES
+   ======================================================
+   ====================================================== */
+
+   .storm-center h1 {
+    text-align: center;
+    padding-top: 1em;
+}
+
+.storm-center div {
+    background-color: white;
+    padding-bottom: 1em;
+    margin: 2em;
+    border-radius: 10px;
+}
+
+form {
+    margin: 4em;
+}
+
+legend {
+    padding: .5em;
+    color: #f2d06c;
+    font-size: 2em;
+}
+
+.personal-info, .storm-info {
+    border: 5px solid #212026;
+    border-radius: 10px;
+    padding-left: 1.8em;
+    padding-bottom: 40px;
+}
+
+.info, select {
+    display: block;
+}
+
+select {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.info {
+    font-size: 1.3rem;
+    padding-top: 15px;
+    padding-bottom: 1px;
+    color: #44424f;
+    padding: 6px;
+    width: 90%;
+    border-radius: 10px
+}
+
+/* input {
+    padding: 6px;
+    width: 90%;
+} */
+
+textarea {
+    border-radius: 10px;
+}
+
+#rating {
+    padding: 0;
+}
+
+.thanks {
+    padding: 5em;
+    border-top: 2px solid #f2d06c;
+}
+
+.thanks h1 {
+    text-align: center;
+    color: #f2d06c;
+}
+
+/* ======================================================
+   ======================================================
+                    HOME PAGE STYLES
+   ======================================================
+   ====================================================== */
+
+   .cards {
+    margin: 2em;
+}
+
+.cards section {
+ border: 2px solid #f2d06c;
+ border-radius: 5px;
+ margin-bottom: 20px;
+ padding: 1em;
+ text-align: center;
+ color: #a3b4bf;
+}
+
+.cards section h3 {
+   color: #f2d06c;
+}
+
+.cards section img {
+   width: 100%;
+}
+
+.wireframes {
+   color: #f2d06c;
+}
+
+.wireframes:hover {
+   border-bottom: 1px solid #f2d06c;
+}
