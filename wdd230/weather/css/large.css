@@ -20,4 +20,28 @@
     .personal-info, .storm-info {
         margin: 0 10em;
       }
+
+      .cards {
+        margin: 10em;
+      }
+
+      .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1em;
+      }
+
+      .cards section {
+       display: grid;
+       grid-template-columns: 1fr;
+     }
+
+     .cards section:nth-child(2) img {
+       grid-column: 1/3;
+       grid-row: 2;
+     }
+
+     .cards section:nth-child(2) div {
+       grid-column: 1/3;
+     }
 }

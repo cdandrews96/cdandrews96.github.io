@@ -54,4 +54,23 @@
     figcaption {
       display: none;
   }
+
+  .cards {
+    margin: 3em;
+  }
+
+  .cards section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .cards section:nth-child(2) img {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .cards section:nth-child(2) div {
+    grid-column: 2;
+    grid-row: 1;
+  }
 }
