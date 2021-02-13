@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Preston Town Home Page</title>
+    <title>Soda Springs Town Page</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
@@ -24,8 +24,8 @@
             <ul class="navigation">
                 <li><a class="ham" href="#">&#9776; Menu</a></li>
                 <li><a href="index.html">Home</a></li>
-                <li><a class="active" href="preston.html">Preston</a></li>
-                <li><a href="soda-springs.html">Soda Springs</a></li>
+                <li><a href="preston.html">Preston</a></li>
+                <li><a class="active" href="soda-springs.html">Soda Springs</a></li>
                 <li><a href="fish-haven.html">Fish Haven</a></li>
                 <li><a href="stormcenter.html">Storm Center</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
@@ -36,12 +36,12 @@
     <main>
 
         <section class="hero-image">
-            <h1 class="preston">Preston, Idaho</h1>
+            <h1 class="preston">Soda Springs, Idaho</h1>
             <div class="herodiv">
                 <picture>
-                    <source srcset="images/prestonPage-1200w.jpg" media="(min-width: 900px)">
-                    <source srcset="images/prestonPage-900w.jpg" media="(min-width: 520px)">
-                    <img src="images/prestonPage-450w.jpg" alt="Franklin, Idaho">
+                    <source srcset="images/sodasprings-1920w.jpg" media="(min-width: 900px)">
+                    <source srcset="images/sodasprings-1600w.jpg" media="(min-width: 520px)">
+                    <img src="images/sodasprings-1550w.jpg" alt="Soda Springs, Idaho">
                 </picture>
                 <section class="stats">
                     <h2>Weather Summary</h2>
@@ -53,20 +53,36 @@
                 </section>
             </div>
         </section>
-            
+
         <section class="main-content">
 
             <h2 class="title fiveday">5 Day Forecast</h2>
-        
-        <section class="five-day-forecast" id="forecast">
 
+        <section id="forecast" class="five-day-forecast">
+            
                 
         </section>
 
-        <section>
-            <h2>Cycling Marathan Review</h2>
-            <h3>Author: John Doe</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at cursus ante. Aenean rutrum diam eu libero blandit gravida. Vivamus varius libero risus, at pellentesque arcu fermentum quis. Sed faucibus nibh at odio varius iaculis. Nunc ut sem viverra mauris egestas porta. Suspendisse ante metus, feugiat eget egestas eget, venenatis vitae est. Mauris tellus justo, pellentesque sit amet ullamcorper nec, dictum non odio. Donec eu euismod lorem, quis viverra nisl. Morbi aliquam pulvinar nunc aliquet fringilla.<br />Quisque ac dolor at erat consequat molestie. Integer feugiat imperdiet velit, nec pulvinar magna luctus sit amet. Etiam eros lacus, gravida ut pretium rutrum, eleifend quis orci. Integer elit augue, venenatis vitae erat sit amet, dictum ultricies arcu. Aenean vel ligula ut tellus consectetur placerat et lacinia neque. Etiam malesuada leo non tellus scelerisque ornare. Vivamus vitae mattis elit, ut mollis sapien.</p>
+        <div class="events"></div>
+
+        <section class="article alignment">
+            <h2>Geyser Updates in Soda Springs</h2>
+            <p class="author">By John Doe</p>
+            <div class="article-grid">
+                <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla auctor tortor at nisl euismod tempus. 
+                                    Donec pretium convallis lorem mollis tempus. Suspendisse faucibus tincidunt elit in bibendum. Suspendisse 
+                                    commodo diam accumsan turpis placerat elementum. Cras porttitor erat eget dapibus dignissim. Phasellus 
+                                    vel viverra ex, non elementum odio. Sed sed volutpat felis. Pellentesque lobortis mauris id erat auctor volutpat.</p>
+                <p class="content-2">Mauris lacinia nulla id nisl iaculis, ac faucibus tellus blandit. Sed tempus neque non ipsum placerat efficitur. 
+                                        Suspendisse ut tempor neque, quis pharetra arcu. Ut suscipit egestas ante, porta finibus turpis tempus sed. 
+                                        Curabitur vitae orci tempor, malesuada ex et, molestie augue. Sed porttitor, dolor at egestas mattis, orci 
+                                        augue vulputate ligula, ut efficitur odio mauris non sapien. Curabitur semper aliquam ex, ac aliquam risus 
+                                        rhoncus in. Ut scelerisque feugiat magna in pharetra. Etiam facilisis convallis metus, vel feugiat felis 
+                                        pharetra eget. Phasellus interdum tincidunt magna ac cursus. Ut rutrum urna sit amet felis tincidunt pulvinar.</p>
+                <div class="article-img">
+                    <img src="images/soda-springs-geyser.jpg" alt="Article Image">
+                </div>
+            </div>
         </section>
 
     </section>
@@ -93,5 +109,8 @@
     <script src="js/windchill.js"></script>
     <script src="js/weatherToday.js"></script>
     <script src="js/fiveDayForecast.js"></script>
+    <script src="script/fiveDayForecastSodaSprings.js"></script>
+    <script src="script/weatherTodaySodaSprings.js"></script>
+    <script src="script/sodaSpringsEvents.js"></script>
 </body>
 </html>
