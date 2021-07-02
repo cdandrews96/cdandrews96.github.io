@@ -1,132 +1,67 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Commissioner&family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cabin+Condensed:400,700&display=swap');
 
-body h1, body h2, nav a {
-    font-family: "Lexend Deca";
+main {
+    margin: 0 5em 0 5em;
 }
 
-body p {
-    font-family: "Commissioner";
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cabin Condensed';
+    font-weight: 700;
 }
 
-nav ul {
-    /* display: flex;
-    justify-content: space-evenly; */
-    list-style: none;
-    display: block
-}
-
-a:link {
-    color: #A3B4BF;
-    text-decoration: none;
-}
-
-a:visited {
-    color: #A3B4BF;
-}
-
-a:hover {
-    color: #F2D06B;
-}
-
-.active {
-    color: #F2D06B !important;
+p, ul {
+    font-family: 'Cabin Condensed';
 }
 
 header {
-    background-color: #0c2659;
-    padding: 10px;
+    background-color: #212026;
 }
 
-/* main {
-    margin: 3em;
-} */
-
-.logo {
-    background-color: #0c2659;
-    padding: 3em;
-    color: #A3B4BF;
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2em 0 2em 0;
+    list-style: none;
+    font-family: 'Cabin Condensed';
+    font-weight: 700;
 }
 
-.logo h1 {
-    text-align: center;
-    color: #F2D06B;
+.active {
+    color: #f2e313;
 }
 
-.logo p {
-    margin: 1em 10em;
-}
-
-.purpose {
-    padding: 3em;
-    background-color: #A3B4BF;
-}
-
-.purpose h1, .purpose p {
-    color: #0c2659;
+li a {
+    text-decoration: none;
+    color: #a3b4bf;
 }
 
 .logo img {
     display: block;
-    background-color: #A3B4BF;
-    padding: 1.5em;
-    border-radius: 20px;
     margin: 0 auto;
+    width: 200px;
+}
+
+li a:hover {
+    color: #f2e313;
 }
 
 
-/* ------Target Audience Styles------ */
-
-.target-audience {
-    padding: 3em;
-    background-color: #A3B4BF;
-    color: #0c2659;
-}
-
-.personas {
-    background-color: #0c2659;
-    padding: 3em;
-    color: #A3B4BF;
-}
-
-.personas h2 {
-    color: #F2D06B;
-    text-align: center;
-}
-
-.persona-title {
-    grid-column: 1/3;
-    color: #F2D06B;
-    text-align: center;
-}
-
-.personas img {
+/* TARGET AUDIENCE STYLES */
+.persona {
+    width: 500px;
+    border-radius: 20px;
+    border: solid 3px #212026;
     display: block;
     margin: 0 auto;
-    width: 60%;
-    border-radius: 20px;
 }
 
-.scenarios {
-    padding: 3em;
-    background-color: #A3B4BF;
-}
 
-.scenarios li {
-    color: #0c2659;
-    font-family: "Commissioner";
-}
-
-.scenarios h1 {
-    color: #0c2659;
-}
-
-/* -----Color Scheme Styles----- */
-
+/* COLOR SCHEME STYLES */
 .background-color {
     width: 200px;
     height: 200px;
-    background-color: #0c2659;
+    background-color: #212026;
 }
 
 .color-title {
@@ -136,7 +71,7 @@ header {
 .header-color {
     width: 200px;
     height: 200px;
-    background-color: #F2D06B;
+    background-color: #f2e313;
 }
 
 .other-color {
@@ -161,43 +96,31 @@ header {
 }
 
 .bckgrnd {
-    background-color: #0c2659;
+    background-color: #212026;
 }
 
 .bckgrnd div {
-    /* margin: .5em 5em 0 5em;
-    padding: 1em 0 1em 0; */
-    padding: 1em 3em 0 3em;
+    margin: .5em 5em 0 5em;
+    padding: 1em 0 1em 0;
 }
 
 .bckgrnd h2 {
-    color: #F2D06B;
+    color: #f2e313;
 }
 
 .bckgrnd p {
     color: #a3b4bf;
 }
+/* Color Theme Swatches in Hex */
+.-Redesign-1-hex { color: #212026; }
+.-Redesign-2-hex { color: #a3b4bf; }
+.-Redesign-4-hex { color: #f2e313; }
 
-/* -----Typography Styles----- */
-
-.type-body {
-    background-color: #A3B4BF;
+/* TYPOGRAPHY STYLES */
+.font {
+    font-size: 4em;
 }
 
-.type-1, .type-2 {
-    text-align: center;
-}
-
-.type-1 {
-    background-color: #A3B4BF;
-}
-
-.type-2 {
-    background-color: #0c2659;
-    color: #A3B4BF;
-    padding: 3em;
-}
-
-.type-2 h1 {
-    color: #F2D06B;
+.type {
+    font-weight: 400;
 }
