@@ -1,0 +1,174 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;700&display=swap');
+
+body {
+    font-family: "Cabin Condensed";
+}
+
+nav ul {
+    /* display: flex;
+    justify-content: space-evenly; */
+    list-style: none;
+    display: block
+}
+
+a:link {
+    color: #A3B4BF;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #A3B4BF;
+}
+
+a:hover {
+    color: #F2E313;
+}
+
+.active {
+    color: #F2E313 !important;
+}
+
+header {
+    background-color: #212026;
+    padding: 10px;
+}
+
+/* main {
+    margin: 3em;
+} */
+
+.logo {
+    background-color: #212026;
+    padding: 3em;
+    color: #A3B4BF;
+}
+
+.logo h1 {
+    text-align: center;
+    color: #F2E313;
+}
+
+.logo p {
+    margin: 1em 10em;
+}
+
+.purpose {
+    padding: 3em;
+}
+
+.logo img {
+    display: block;
+    background-color: #A3B4BF;
+    padding: 1.5em;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+
+/* ------Target Audience Styles------ */
+
+.target-audience {
+    padding: 3em;
+}
+
+.personas {
+    background-color: #212026;
+    padding: 3em;
+    color: #A3B4BF;
+}
+
+.personas h2 {
+    color: #F2E313;
+    text-align: center;
+}
+
+.persona-title {
+    grid-column: 1/3;
+    color: #F2E313;
+    text-align: center;
+}
+
+.personas img {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    border-radius: 20px;
+}
+
+.scenarios {
+    padding: 3em;
+}
+
+/* -----Color Scheme Styles----- */
+
+.background-color {
+    width: 200px;
+    height: 200px;
+    background-color: #212026;
+}
+
+.color-title {
+    text-align: center;
+}
+
+.header-color {
+    width: 200px;
+    height: 200px;
+    background-color: #f2e313;
+}
+
+.other-color {
+    width: 200px;
+    height: 200px;
+    background-color: #a3b4bf;
+}
+
+.hex-colors {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hex-colors p {
+    display: flex;
+    justify-content: center;
+    padding-top: 5em;
+}
+
+.background-color p {
+    color: antiquewhite;
+}
+
+.bckgrnd {
+    background-color: #212026;
+}
+
+.bckgrnd div {
+    /* margin: .5em 5em 0 5em;
+    padding: 1em 0 1em 0; */
+    padding: 1em 3em 0 3em;
+}
+
+.bckgrnd h2 {
+    color: #f2e313;
+}
+
+.bckgrnd p {
+    color: #a3b4bf;
+}
+
+/* -----Typography Styles----- */
+
+.type-1, .type-2 {
+    text-align: center;
+}
+
+.type-2 {
+    background-color: #212026;
+    color: #A3B4BF;
+    padding: 3em;
+}
+
+.type-2 h1 {
+    color: #F2E313;
+}

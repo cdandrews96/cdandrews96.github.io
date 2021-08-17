@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preston Town Home Page</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+</head>
+<body>
+    <div id="friday">
+        <p>Saturday = Preston Pancakes in the Park!</p>
+        <p>9:00 a.m. Saturday at the city park.</p>
+    </div>
+    <header>
+        <div class="title">
+            <img src="images/viewfinder-forecast-logo.png" alt="Viewfinder Forecast Logo">
+            <div>
+                <h1>View Finder Forecast</h1>
+                <p>Perfect weather for the perfect photograph.</p>
+            </div>
+        </div>
+        <nav>
+            <ul class="navigation">
+                <li><a class="ham" href="#">&#9776; Menu</a></li>
+                <li><a href="#">Home</a></li>
+                <li class="active"><a href="#">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        
+
+        <section class="hero-image">
+            <h1 class="preston">Preston, Idaho</h1>
+            <div class="herodiv">
+                <img src="images/hero-image.jpg" alt="Preston, Idaho">
+                <section class="stats">
+                    <h2>Weather Summary</h2>
+                    <p>Currently:</p>
+                    <p>High:</p>
+                    <p>Wind Chill:</p>
+                    <p>Humidity:</p>
+                    <p>Wind Speed:</p>
+                </section>
+            </div>
+        </section>
+
+        <section class="forecast">
+            <h2>5 day forecast</h2>
+        </section>
+
+        <section class="article">
+            <h2>Best Outdoor Photography</h2>
+            <p class="author">By John Doe</p>
+            <div class="article-grid">
+                <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla auctor tortor at nisl euismod tempus. Donec pretium convallis lorem mollis tempus. Suspendisse faucibus tincidunt elit in bibendum. Suspendisse commodo diam accumsan turpis placerat elementum. Cras porttitor erat eget dapibus dignissim. Phasellus vel viverra ex, non elementum odio. Sed sed volutpat felis. Pellentesque lobortis mauris id erat auctor volutpat.</p>
+                <p class="content-2">Mauris lacinia nulla id nisl iaculis, ac faucibus tellus blandit. Sed tempus neque non ipsum placerat efficitur. Suspendisse ut tempor neque, quis pharetra arcu. Ut suscipit egestas ante, porta finibus turpis tempus sed.</p>
+                <div class="article-img">
+                    <img src="images/article-image.jpg" alt="Article Image">
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-list">
+            <div class="contact">
+                <p><span class="ylw">Phone:</span> 555-5389</p>
+                <p><span class="ylw">Address:</span> Preston, Idaho</p>
+                <p><span class="ylw">E-Mail:</span> viewfinderforecast@gmail.com</p>
+            </div>
+            <div class="social-media">
+                <p class="ylw">Facebook</p>
+                <p class="ylw">Instagram</p>
+                <p class="ylw">YouTube</p>
+            </div>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.726302150804!2d-111.91543032526857!3d42.09980528577836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1590086984597!5m2!1sen!2sus" width="100%" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; <span id="currentYear"></span> | Caleb Andrews | <a href="https://www.byui.edu" target="_blank">BYU-Idaho</a></p>
+        <p><span id="currentdate"></span></p>
+    </footer>
+
+    <script src="script/currentDate.js"></script>
+    <script src="script/lastModified.js"></script>
+    <script src="script/responsiveMenu.js"></script>
+</body>
+</html>

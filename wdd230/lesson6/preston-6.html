@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preston Town Home Page</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+</head>
+<body>
+    <div id="friday">
+        <p>Saturday = Preston Pancakes in the Park!</p>
+        <p>9:00 a.m. Saturday at the city park.</p>
+    </div>
+    <header>
+        <div class="title">
+            <img src="images/viewfinder-forecast-logo.png" alt="Viewfinder Forecast Logo">
+            <div>
+                <h1>View Finder Forecast</h1>
+                <p>Perfect weather for the perfect photograph.</p>
+            </div>
+        </div>
+        <nav>
+            <ul class="navigation">
+                <li><a class="ham" href="#">&#9776; Menu</a></li>
+                <li><a href="#">Home</a></li>
+                <li class="active"><a href="#">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        
+
+        <section class="hero-image">
+            <h1 class="preston">Preston, Idaho</h1>
+            <div class="herodiv">
+                <picture>
+                    <source srcset="images/franklinOriginal-1200w.jpg" media="(min-width: 900px)">
+                    <source srcset="images/franklinOriginal-900w.jpg" media="(min-width: 520px)">
+                    <img src="images/franklinOriginal-450w.jpg" alt="Franklin, Idaho">
+                </picture>
+                <section class="stats">
+                    <h2>Weather Summary</h2>
+                    <p>Currently: Rainy</p>
+                    <p>High: 54 &deg;F</p>
+                    <p>Wind Chill: <span id="wind-chill"></span>&deg;F</p>
+                    <p>Humidity: 95%</p>
+                    <p>Wind Speed: 12mph</p>
+                </section>
+            </div>
+        </section>
+
+        <section class="forecast alignment">
+            <h2>5 Day Forecast</h2>
+                <div>
+                    <h3>Monday</h3>
+                    <img alt="Sunny" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iOTYiIGhlaWdodD0iOTYiCnZpZXdCb3g9IjAgMCAxNzIgMTcyIgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDE3MnYtMTcyaDE3MnYxNzJ6IiBmaWxsPSJub25lIj48L3BhdGg+PGcgZmlsbD0iI2EzYjRiZiI+PHBhdGggZD0iTTgwLjYyNSwxNi4xMjV2MjYuODc1aDEwLjc1di0yNi44NzV6TTQwLjMxMjUsMzIuNzUzOTFsLTcuNTU4NTksNy41NTg1OWwxOC45ODA0NywxOS4xNDg0NGw3LjcyNjU2LC03LjcyNjU2ek0xMzEuNjg3NSwzMi43NTM5MWwtMTkuMTQ4NDQsMTguOTgwNDdsNy43MjY1Niw3LjcyNjU2bDE4Ljk4MDQ3LC0xOS4xNDg0NHpNODYsNDguMzc1Yy0yMC43MjMxNSwwIC0zNy42MjUsMTYuOTAxODUgLTM3LjYyNSwzNy42MjVjMCwyMC43MjMxNSAxNi45MDE4NSwzNy42MjUgMzcuNjI1LDM3LjYyNWMyMC43MjMxNSwwIDM3LjYyNSwtMTYuOTAxODUgMzcuNjI1LC0zNy42MjVjMCwtMjAuNzIzMTUgLTE2LjkwMTg1LC0zNy42MjUgLTM3LjYyNSwtMzcuNjI1ek04Niw1OS4xMjVjMTQuOTA3MjMsMCAyNi44NzUsMTEuOTY3NzggMjYuODc1LDI2Ljg3NWMwLDE0LjkwNzIzIC0xMS45Njc3NywyNi44NzUgLTI2Ljg3NSwyNi44NzVjLTE0LjkwNzIyLDAgLTI2Ljg3NSwtMTEuOTY3NzcgLTI2Ljg3NSwtMjYuODc1YzAsLTE0LjkwNzIyIDExLjk2Nzc4LC0yNi44NzUgMjYuODc1LC0yNi44NzV6TTE2LjEyNSw4MC42MjV2MTAuNzVoMjYuODc1di0xMC43NXpNMTI5LDgwLjYyNXYxMC43NWgyNi44NzV2LTEwLjc1ek01MS43MzQzOCwxMTIuNTM5MDZsLTE4Ljk4MDQ3LDE5LjE0ODQ0bDcuNTU4NTksNy41NTg1OWwxOS4xNDg0NCwtMTguOTgwNDd6TTEyMC4yNjU2MywxMTIuNTM5MDZsLTcuNzI2NTYsNy43MjY1NmwxOS4xNDg0NCwxOC45ODA0N2w3LjU1ODU5LC03LjU1ODU5ek04MC42MjUsMTI5djI2Ljg3NWgxMC43NXYtMjYuODc1eiI+PC9wYXRoPjwvZz48L2c+PC9zdmc+"/>
+                    <p><span>30&deg;F</span></p>
+                </div>
+
+                <div>
+                    <h3>Tuesday</h3>
+                    <img src="images/icons8-heavy-rain-96.png" alt="Rainy">
+                    <p><span>30&deg;F</span></p>
+                </div>
+
+                <div>
+                    <h3>Wednesday</h3>
+                    <img src="images/icons8-clouds-96.png" alt="Cloudy">
+                    <p><span>30&deg;F</span></p>
+                </div>
+
+                <div>
+                    <h3>Thursday</h3>
+                    <img src="images/icons8-clouds-96.png" alt="Cloudy">
+                    <p><span>30&deg;F</span></p>
+                </div>
+
+                <div>
+                    <h3>Friday</h3>
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iOTYiIGhlaWdodD0iOTYiCnZpZXdCb3g9IjAgMCAxNzIgMTcyIgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDE3MnYtMTcyaDE3MnYxNzJ6IiBmaWxsPSJub25lIj48L3BhdGg+PGcgZmlsbD0iI2EzYjRiZiI+PHBhdGggZD0iTTgwLjYyNSwxNi4xMjV2MjYuODc1aDEwLjc1di0yNi44NzV6TTQwLjMxMjUsMzIuNzUzOTFsLTcuNTU4NTksNy41NTg1OWwxOC45ODA0NywxOS4xNDg0NGw3LjcyNjU2LC03LjcyNjU2ek0xMzEuNjg3NSwzMi43NTM5MWwtMTkuMTQ4NDQsMTguOTgwNDdsNy43MjY1Niw3LjcyNjU2bDE4Ljk4MDQ3LC0xOS4xNDg0NHpNODYsNDguMzc1Yy0yMC43MjMxNSwwIC0zNy42MjUsMTYuOTAxODUgLTM3LjYyNSwzNy42MjVjMCwyMC43MjMxNSAxNi45MDE4NSwzNy42MjUgMzcuNjI1LDM3LjYyNWMyMC43MjMxNSwwIDM3LjYyNSwtMTYuOTAxODUgMzcuNjI1LC0zNy42MjVjMCwtMjAuNzIzMTUgLTE2LjkwMTg1LC0zNy42MjUgLTM3LjYyNSwtMzcuNjI1ek04Niw1OS4xMjVjMTQuOTA3MjMsMCAyNi44NzUsMTEuOTY3NzggMjYuODc1LDI2Ljg3NWMwLDE0LjkwNzIzIC0xMS45Njc3NywyNi44NzUgLTI2Ljg3NSwyNi44NzVjLTE0LjkwNzIyLDAgLTI2Ljg3NSwtMTEuOTY3NzcgLTI2Ljg3NSwtMjYuODc1YzAsLTE0LjkwNzIyIDExLjk2Nzc4LC0yNi44NzUgMjYuODc1LC0yNi44NzV6TTE2LjEyNSw4MC42MjV2MTAuNzVoMjYuODc1di0xMC43NXpNMTI5LDgwLjYyNXYxMC43NWgyNi44NzV2LTEwLjc1ek01MS43MzQzOCwxMTIuNTM5MDZsLTE4Ljk4MDQ3LDE5LjE0ODQ0bDcuNTU4NTksNy41NTg1OWwxOS4xNDg0NCwtMTguOTgwNDd6TTEyMC4yNjU2MywxMTIuNTM5MDZsLTcuNzI2NTYsNy43MjY1NmwxOS4xNDg0NCwxOC45ODA0N2w3LjU1ODU5LC03LjU1ODU5ek04MC42MjUsMTI5djI2Ljg3NWgxMC43NXYtMjYuODc1eiI+PC9wYXRoPjwvZz48L2c+PC9zdmc+" alt="Sunny">
+                    <p><span>30&deg;F</span></p>
+                </div>
+        </section>
+
+        <section class="article alignment">
+            <h2>Best Outdoor Photography</h2>
+            <p class="author">By John Doe</p>
+            <div class="article-grid">
+                <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla auctor tortor at nisl euismod tempus. Donec pretium convallis lorem mollis tempus. Suspendisse faucibus tincidunt elit in bibendum. Suspendisse commodo diam accumsan turpis placerat elementum. Cras porttitor erat eget dapibus dignissim. Phasellus vel viverra ex, non elementum odio. Sed sed volutpat felis. Pellentesque lobortis mauris id erat auctor volutpat.</p>
+                <p class="content-2">Mauris lacinia nulla id nisl iaculis, ac faucibus tellus blandit. Sed tempus neque non ipsum placerat efficitur. Suspendisse ut tempor neque, quis pharetra arcu. Ut suscipit egestas ante, porta finibus turpis tempus sed.</p>
+                <div class="article-img">
+                    <img src="images/article-image.jpg" alt="Article Image">
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-list alignment">
+            <div class="contact">
+                <p><span class="ylw">Phone:</span> 555-5389</p>
+                <p><span class="ylw">Address:</span> Preston, Idaho</p>
+                <p><span class="ylw">E-Mail:</span> viewfinderforecast@gmail.com</p>
+            </div>
+            <div class="social-media">
+                <p class="ylw">Facebook</p>
+                <p class="ylw">Instagram</p>
+                <p class="ylw">YouTube</p>
+            </div>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.726302150804!2d-111.91543032526857!3d42.09980528577836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1590086984597!5m2!1sen!2sus" width="100%" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; <span id="currentYear"></span> | Caleb Andrews | <a href="https://www.byui.edu" target="_blank">BYU-Idaho</a></p>
+        <p><span id="currentdate"></span></p>
+    </footer>
+
+    <script src="script/currentDate.js"></script>
+    <script src="script/lastModified.js"></script>
+    <script src="script/responsiveMenu.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="script/webFontLoader.js"></script>
+    <script src="script/windchill.js"></script>
+</body>
+</html>

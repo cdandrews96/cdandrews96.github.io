@@ -1,0 +1,28 @@
+body {
+    grid-template-columns: 1fr;
+}
+
+picture {
+    display: block;
+    padding: 1em;
+}
+
+[data-src] {
+    min-width: 50px;
+    min-height: 50px;
+}
+
+/* Blur Effect */
+[data-src] {
+    filter: blur(0.2em);
+    background-color: grey;
+}
+
+img {
+    filter: blur(0em);
+    transition: filter .5s;
+}
+
+footer {
+    margin-top: 500px;
+}

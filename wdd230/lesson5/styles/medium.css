@@ -1,0 +1,31 @@
+@media only screen and (min-width: 32.5em) {
+    .navigation {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .navigation li {
+		display: block; /* change state in small view */
+		/* flex: 1 1 auto; */
+    }
+    
+    .navigation li:first-child {
+		display: none;
+    }
+
+    main {
+      padding: 0 8rem;
+    }
+
+    .forecast {
+      display: block;
+    }
+
+    /* Forecast Styles */
+
+    .forecast h2 {
+      color: #a3b4bf;
+      text-align: center;
+    }
+
+}
